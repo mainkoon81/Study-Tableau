@@ -2,18 +2,16 @@
 
 ### [Contents] 
 
-__Lab-01.__ Exploring Weather Trends
+__Part-01.__ Exploring Weather Trends
   - language: R
-  - package: 
   - func:
 
-__Lab-02.__ 
-  - language: 
-  - package: 
+__Part-02.__ Visualizing Movie Data
+  - language: Tableau
   - func: 
   
 ----------------------------------------------------------------------
-#### >Lab-01. Exploring Weather Trends
+#### >Part-01. Exploring Weather Trends
 
 __Data:__ The Data were collected recording votes in the Irish parliament (D´ailEireann), prior to the general election, in early 2016. Extra details of the votes can be found at (http://www.oireachtas.ie/parliament/) and the data are for the votes on January 14th-28th.
 There are three tables in the database:
@@ -31,6 +29,16 @@ Let’s say the dataset contains ‘daily sales data’ from 01-01-2009 to 03-31
 __Investigation:__ Is your city hotter or cooler on average compared to the global average? Has the difference been consistent over time? How do the changes in your city’s temperatures over time compare to the changes in the global average? What does the overall trend look like? Is the world getting hotter or cooler? Has the trend been consistent over the last few hundred years?
 
 
+
+
+
+
+
+
+----------------------------------------------------------------------
+#### >Part-02. Visualizing Movie Data
+
+__Data:__ The Data were collected recording votes in the Irish parliament (D´ailEireann), prior to the general election, in early 2016. Extra details of the votes can 
   
   
   
