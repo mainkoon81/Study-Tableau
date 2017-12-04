@@ -1,6 +1,5 @@
 # Visualization & Storytelling
 
-
 ### Communicating information about data visually
 > Why are data visualizations more useful for delivering insight than just using summary statistics?
 > How visual encodings influences the way we interpret information and in turn how well we can draw insights from the data? 
@@ -57,7 +56,25 @@ ggplot(df2, aes(x=Math.SAT, y=Verbal.SAT, group=stud..fac..ratio)) +
 ```
 __[tableau]__
 
-A. 
+I. Importing to Data
+II. Combining Data (connect data from multiple sources)
+III. Worksheets
+IV. Aggregations
+V. Hierarchies (look at the data at a year, month, day, hour, or another level)
+VI. Marks & Filters (controls the colors, shapes and other attributes of our data)
+VII. Show Me (controls what our ending visual looks like)
+VIII. Small Multiples & Dual Axis (to visualize data that needs to share an axis for comparison purposes)
+IX. Groups & Sets (categorize our data within a visualization)
+X. Calculated Fields (add calculated fields to a visualization on the fly)
+XI. Table Calculations (perform comparisons of our data over time or between groups)
+
+### I. Importing to Data
+
+
+
+
+
+
 
  
 
