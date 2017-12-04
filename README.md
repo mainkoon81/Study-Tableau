@@ -2,6 +2,8 @@
 
 ### [Contents] 
 
+__Intro__ Communicating information about data visually
+
 __Part-01.__ Exploring Weather Trends
   - language: R
   - func:
@@ -9,7 +11,24 @@ __Part-01.__ Exploring Weather Trends
 __Part-02.__ Visualizing Movie Data
   - language: Tableau
   - func: 
-  
+
+----------------------------------------------------------------------
+### Intro
+> Why are data visualizations more useful for delivering insight than just using summary statistics?
+
+> What plot do you build in a given situation?
+
+__[two components]__
+ - artistic: to be eyecatching (engaging)
+ - scientific: to deliver the right insights (informative)
+Summary statistics like the mean and standard deviation can be great for attempting to quickly understand aspects of a dataset, but they can also be misleading. 
+<img src="https://user-images.githubusercontent.com/31917400/33559261-22d4dea4-d904-11e7-8880-271abb778318.jpg" width="600" height="200" />
+
+ 
+ 
+
+
+
 ----------------------------------------------------------------------
 #### >Part-01. Exploring Weather Trends
 
