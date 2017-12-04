@@ -17,6 +17,7 @@ __Part-02.__ Visualizing Movie Data
 > Why are data visualizations more useful for delivering insight than just using summary statistics?
 > How visual encodings influences the way we interpret information and in turn how well we can draw insights from the data? 
 > What plot do you build in a given situation?
+> How to encode our visuals to best communicate our findings? How to design components? 
 
 __[two components]__
  - artistic: to be eyecatching (engaging)
