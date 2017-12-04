@@ -33,7 +33,7 @@ __[What to care?]__
 <img src="https://user-images.githubusercontent.com/31917400/33563471-fba1d5b0-d90f-11e7-8ce0-61ac69a2d491.jpg" />
 
 __[Design]__
-In R 
+Example in R 
 ```
 install.packages('ggplot2')
 library(ggplot2)
