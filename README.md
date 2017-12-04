@@ -29,11 +29,16 @@ Summary statistics like the mean and standard deviation can be great for attempt
 __[What to care?]__
  - Data type(continuous? discrete? ordinal? categorical?)
  - number of columns 
- - Univariate: histogram / Box and Whisker Plot / Stem and Leaf Plot / Normal Quantile Plot 
+ - a couple, correlation-coefficient("strength + direction" of linear relationship): Scatter Plot
+<img src="https://user-images.githubusercontent.com/31917400/33561533-cf9a5528-d90a-11e7-8f8d-4361b221a62f.jpg" width="350" height="150" />
+
+ - Univariate: Histogram / Box and Whisker Plot / Stem and Leaf Plot / Normal Quantile Plot 
 <img src="https://user-images.githubusercontent.com/31917400/33560553-f8cfd8b2-d907-11e7-92fe-6d7103b5426d.jpg"  />
    
- - Multivariate: Bar Chart / Pie Chart / Pareto Chart
+ - Multivariate: Bar Chart(categorical bin) / Pareto Chart(ordinal bin, which has the most problem?) / Pie Chart
 <img src="https://user-images.githubusercontent.com/31917400/33560699-65ceff06-d908-11e7-823c-06035aef8008.jpg" width="350" height="200" />
+ervdbv
+
 
  
 
