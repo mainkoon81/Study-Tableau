@@ -12,7 +12,7 @@ __[two components]__
 Summary statistics like the mean and standard deviation can be great for attempting to quickly understand aspects of a dataset, but they can also be misleading. 
 <img src="https://user-images.githubusercontent.com/31917400/33559462-bf77609c-d904-11e7-8dbb-b60ae351e93b.jpg"  />
 
-%Anscombe's Quartet: In the 4 datasets with X,Y paairs above, they all share the same stats, buit data points are very different one another. Relying on only summarry statistics can be misleading!    
+%Anscombe's Quartet: In the 4 datasets with X,Y pairs above, they all share the same stats, but data points are very different one another. Relying on only summarry statistics can be misleading!    
 
 __[What to care?]__
  - Data type(continuous? discrete? ordinal? categorical?)
@@ -69,6 +69,13 @@ __[tableau]__
  - XI. Table Calculations (perform comparisons of our data over time or between groups)
 
 #### I. Connecting to Data
+In the left sidebar you'll see the data sources you can connect to. For file sources, you can connect to an Excel file, a text file such as a CSV, or statistical files such as from SAS, SPSS, and R. If Tableau detects sub-tables, unique formatting, or some extraneous information, the **Data Interpreter** option becomes available. 
+
+#### II. Combining Data
+
+
+
+
 
 
 
