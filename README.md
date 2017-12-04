@@ -57,6 +57,7 @@ ggplot(df2, aes(x=Math.SAT, y=Verbal.SAT, group=stud..fac..ratio)) +
 ```
 __[tableau]__
 
+A. 
 
  
 
