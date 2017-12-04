@@ -24,8 +24,29 @@ __[two components]__
 Summary statistics like the mean and standard deviation can be great for attempting to quickly understand aspects of a dataset, but they can also be misleading. 
 <img src="https://user-images.githubusercontent.com/31917400/33559462-bf77609c-d904-11e7-8dbb-b60ae351e93b.jpg"  />
 
+%Anscombe's Quartet: In the 4 datasets with X,Y paairs above, they all share the same stats, buit data points are very different one another. Relying on only summarry statistics can be misleading!    
+
+__[What to care?]__
+ - Data type(continuous? discrete? ordinal? categorical?)
+ - number of columns 
+ - Univariate: histogram / Box and Whisker Plot / Stem and Leaf Plot / Normal Quantile Plot 
+<img src="https://user-images.githubusercontent.com/31917400/33560553-f8cfd8b2-d907-11e7-92fe-6d7103b5426d.jpg"  />
+   
+ - Multivariate: Bar Chart / Pie Chart / Pareto Chart
+<img src="https://user-images.githubusercontent.com/31917400/33560699-65ceff06-d908-11e7-823c-06035aef8008.jpg" width="350" height="200" />
+
  
- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
