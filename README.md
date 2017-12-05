@@ -95,6 +95,7 @@ When you drag "Datetime" variable to Columns, there is a little plus symbol on t
 
 <img src="https://user-images.githubusercontent.com/31917400/33630630-f9b0e8fe-d9ff-11e7-8347-15c03b04a734.jpg" width="600" height="150" />
 
+#### VI. Marks & Filters
 
 
 
