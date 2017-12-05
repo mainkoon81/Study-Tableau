@@ -110,7 +110,11 @@ __Mark card:__ Often, we’ll want to include more dimensions in our graph. We c
 <img src="https://user-images.githubusercontent.com/31917400/33634227-6bf14520-da0b-11e7-9714-02808609bad5.png" width="400" height="250" />
 
  - __Detail:__ The "Detail" card allows us to bring in a field without any visual encoding. This enables us to increase granularity without adding any graphical effect. The "Label" card adds in labels for all of our markers.
- 
+
+__Mark & Filter card:__ 
+
+<img src="https://user-images.githubusercontent.com/31917400/33634715-1357dbf2-da0d-11e7-8551-7118d09c3768.jpg" />
+
  
 
 
