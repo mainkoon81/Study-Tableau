@@ -91,7 +91,9 @@ When we create a plot, selecting X Dimension and Y Measure, Tableau is automatic
 Aggregations assist in our ability to draw insights, but other times having a point for every row might be better.  
 
 #### V. Hierarchies
+When you drag "Datetime" variable to Columns, there is a little plus symbol on the "Datetime" field pill. Tableau automatically makes a hierarchy of time periods from "date" and "time" data fields. As we drill down, we get more fine divisions, from year, to quarter, to month, then day. Clicking on minus sign in them, it will go back up the hierarchy. We can make some column to absorb other column as a sub-category. Select both the catgory(mom) and sub-category(child), then, in the drop down for the category(mom), create hierarchy.  
 
+<img src="https://user-images.githubusercontent.com/31917400/33630630-f9b0e8fe-d9ff-11e7-8347-15c03b04a734.jpg" width="600" height="150" />
 
 
 
