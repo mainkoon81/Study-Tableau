@@ -101,12 +101,17 @@ __Mark card:__ Often, we’ll want to include more dimensions in our graph. We c
  
 <img src="https://user-images.githubusercontent.com/31917400/33633792-e86d17f2-da09-11e7-854a-316439db3bb6.png" />
 
- - __Size:__ Dragging a field, either discrete or continuous, to "Size" will encode the data in the size of the markers. We'll most often use this encoding in a scatter plot. 
+ - __Size:__ Dragging a field, either discrete or continuous, to "Size" will encode the data in the size of the markers. We'll most often use this encoding in a scatter plot. Below is a scatter plot with average quantity vs average profit for each country. I encoded the average discount using the size of the markers, it's clear that discounts are responsible for the countries with negative profits.
 
 <img src="https://user-images.githubusercontent.com/31917400/33633961-7fcd4d42-da0a-11e7-92d8-8efa666c150d.png" width="400" height="250" />
 
+ - __Shape:__ As with color and size, we can use the shape of the markers to encode data. We'll want to use **discrete data only** for this. Also, if we have too many categories the shapes are too difficult to identify.
 
+<img src="https://user-images.githubusercontent.com/31917400/33634227-6bf14520-da0b-11e7-9714-02808609bad5.png" width="400" height="250" />
 
+ - __Detail:__ The "Detail" card allows us to bring in a field without any visual encoding. This enables us to increase granularity without adding any graphical effect. The "Label" card adds in labels for all of our markers.
+ 
+ 
 
 
 
