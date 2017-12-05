@@ -96,7 +96,10 @@ When you drag "Datetime" variable to Columns, there is a little plus symbol on t
 <img src="https://user-images.githubusercontent.com/31917400/33630630-f9b0e8fe-d9ff-11e7-8347-15c03b04a734.jpg" width="600" height="150" />
 
 #### VI. Marks & Filters
-
+__Mark card:__ Often, we’ll want to include more dimensions in our graph. We can add dimensions to the plot (increasing granularity) by dragging dimensions or measures to the Marks shelf. It has options such as color, size, and shape. 
+ - __color:__ Most often we'll be encoding data with color. We simply drag the field to "Color" in the Marks card.
+ 
+<img src="https://user-images.githubusercontent.com/31917400/33633792-e86d17f2-da09-11e7-854a-316439db3bb6.png" />
 
 
 
