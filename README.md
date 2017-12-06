@@ -130,7 +130,11 @@ __Dual Axis:__ (overlap) When we drag multiple Measures to the Rows shelf, we ge
 <img src="https://user-images.githubusercontent.com/31917400/33672987-85b9942e-daa3-11e7-8e62-81ce7499bad9.png" width="600" height="210" />
 
 #### IX. Groups & Sets
+__Groups:__ Groups are typically created from the view by selecting multiple data points in the view. We can use it in other sheets. For instance, create a map that shows how the low quantity countries (grouped) are distributed in the world. 
 
+<img src="https://user-images.githubusercontent.com/31917400/33680974-261d075e-dabb-11e7-83c5-a32b1007c182.png" />
+
+__Sets:__ 
 
 
 
