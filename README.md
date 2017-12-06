@@ -138,10 +138,11 @@ __Sets:__ Sets are similar to groups in that we can select data points and creat
 
 <img src="https://user-images.githubusercontent.com/31917400/33681307-09ca5484-dabc-11e7-8daf-ac41e4967a76.png" width="600" height="290" />
 
-We can use the set in plots to encode these products that are losing money. Let's look at the total profits for the different sub-categories of products. With the set you just made, you can split these bars into losses and gains.
+We can use the set in plots to encode these products that are losing money. Let's look at the total profits for the different sub-categories of products. With the set you just made, you can split these bars into losses and gains. The red bars are showing how much money is lost due to the bad products. It looks like Office Supplies products are almost all winners, but Furniture is losing a lot of money.
 
 <img src="https://user-images.githubusercontent.com/31917400/33681549-cd9233fa-dabc-11e7-87c4-7bfb8573667a.png" />
 
+#### X. Calculated Fields
 
 
 
