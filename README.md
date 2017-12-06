@@ -147,7 +147,7 @@ With more than a **binary split** (just two categories), using a Group or Set mi
 
 <img src="https://user-images.githubusercontent.com/31917400/33688641-0890a632-dad4-11e7-8401-43b4e9465d92.png" />
 
-You can also do aggregation directly in a calculated field. For instance, we can also calculate the profit per item by SUM([Profit])/SUM([Quantity]). The two methods for calculating the profit per item look basically the same, but there are some discrepancies like in "Tables". 
+You can also do aggregation directly in a calculated field. For instance, we can also calculate the profit per item by SUM([Profit])/SUM([Quantity]). The two methods for calculating the profit per item look basically the same, but there are some discrepancies like in "Tables". Now we see there are some weird things going on. A lot of the results from the two methods are extremely different. The third product has a profit per item of $9 or -$5. Looking at the values of Profit and Quantity, it appears that the aggregation method (SUM([Profit])/SUM([Quantity]) is doing the right thing.
 
 <img src="https://user-images.githubusercontent.com/31917400/33690599-24191cec-dadc-11e7-91d9-7a67238fe20e.png" />
 
