@@ -159,8 +159,8 @@ At the row level, the two calculations are the same. It's the averaging of the [
 
 > __Conditional statements__
 We can use conditional statements like IF, THEN, ELSE in calculations. For example to make a new field to categorize sales as "good" and bad", we could do: 
- - IF SUM([Sales]) > 10000 THEN "Good" ELSE "Bad"
- - IIF(SUM([Sales]) > 10000, "Good", "Bad") ==> If true, If false
+> - IF SUM([Sales]) > 10000 THEN "Good" ELSE "Bad"
+> - IIF(SUM([Sales]) > 10000, "Good", "Bad") ==> If true, If false
 
 #### XI. Table Calculations
 
