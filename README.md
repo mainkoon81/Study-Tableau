@@ -123,6 +123,8 @@ The Show Me feature is a quick way to start with a basic graph which we can add 
 #### VIII. Small Multiples & Dual Axis
 Simply dragging multiple dimensions to the Columns and Rows shelves creates a small multiple. We saw this before when learning about hierarchies. 
 
+<img src="https://user-images.githubusercontent.com/31917400/33672299-d19de4c8-daa1-11e7-9ef7-16882b930330.png" width="600" height="210" /> 
+
 
  
 
