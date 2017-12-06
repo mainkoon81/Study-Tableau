@@ -143,7 +143,7 @@ We can use the set in plots to encode these products that are losing money. Let'
 <img src="https://user-images.githubusercontent.com/31917400/33681549-cd9233fa-dabc-11e7-87c4-7bfb8573667a.png" />
 
 #### X. Calculated Fields
-
+With more than a **binary split** (just two categories), using a Group or Set might not be the best option. Instead, you should use a Calculated Field. 
 
 
 
