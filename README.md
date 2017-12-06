@@ -143,12 +143,15 @@ We can use the set in plots to encode these products that are losing money. Let'
 <img src="https://user-images.githubusercontent.com/31917400/33681549-cd9233fa-dabc-11e7-87c4-7bfb8573667a.png" />
 
 #### X. Calculated Fields
-With more than a **binary split** (just two categories), using a Group or Set might not be the best option. Instead, you should use a Calculated Field. 
+With more than a **binary split** (just two categories), using a Group or Set might not be the best option. Instead, you should use a Calculated Field. There will be times when we want to look at something but there isn't a specific field for it. For instance, maybe we want to know the 'profit' per item for each 'order' record. It seems pretty simple, just divide 'profit' by 'order' for each record, then aggregate it, but how do you actually do the division in Tableau? The answer is calculated fields. Calculated fields let us create new fields to use in our visualizations. To create a calculated field, open the menu on a field (such as 'Profit'), then Create > Calculated Field....Fields in the editor show up in brackets, like [Profit]. We can do simple arithmetic here, like adding a constant, or multiplying the field. We can also use functions such as absolute value, sine, square root, etc. Here we want to create a new field that calculates the profit per item for each record - [Profit]/[Quantity]. We also renamed the calculated field to "Profit per item". 
+
+<img src="https://user-images.githubusercontent.com/31917400/33688641-0890a632-dad4-11e7-8401-43b4e9465d92.png" />
+
+You can also do aggregation directly in a calculated field. For instance, we can also calculate the profit per item by SUM([Profit])/SUM([Quantity]). The two methods for calculating the profit per item look basically the same, but there are some discrepancies like in "Tables". 
 
 
 
-
-
+ 
 
 
 
