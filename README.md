@@ -130,13 +130,17 @@ __Dual Axis:__ (overlap) When we drag multiple Measures to the Rows shelf, we ge
 <img src="https://user-images.githubusercontent.com/31917400/33672987-85b9942e-daa3-11e7-8e62-81ce7499bad9.png" width="600" height="210" />
 
 #### IX. Groups & Sets
-__Groups:__ Groups are typically created from the view by selecting multiple data points in the view. We can use it in other sheets. For instance, create a map that shows how the low quantity countries (grouped) are distributed in the world. 
+__Groups:__ Groups are typically created from the view by selecting multiple data points in the view. We can use it in other sheets. For instance, create a map that shows how the low quantity countries (grouped) are distributed in the world. Here we used the group we created (Low Quantity Countries) to color the map. The blue countries are the ones in the group, the ones with low average quantity.
 
 <img src="https://user-images.githubusercontent.com/31917400/33680974-261d075e-dabb-11e7-83c5-a32b1007c182.png" />
 
-__Sets:__ 
+__Sets:__ Sets are similar to groups in that we can select data points and create a set from them. However, sets can be dynamic where the members of the set will change as the underlying data changes. Groups on the other hand are static, the members will always be the members. For example, say we want to see how our poor performing products are affecting the overall profits. We can create a set from the product names or IDs which lose money, where the average profit is below zero. To create the set, open the menu for the Product Name field and choose Create > Set...Click the "Condition" tab. Then select By field: Profit Average < 0 as seen below.
 
+<img src="https://user-images.githubusercontent.com/31917400/33681307-09ca5484-dabc-11e7-8daf-ac41e4967a76.png" width="600" height="290" />
 
+We can use the set in plots to encode these products that are losing money. Let's look at the total profits for the different sub-categories of products. With the set you just made, you can split these bars into losses and gains.
+
+<img src="https://user-images.githubusercontent.com/31917400/33681549-cd9233fa-dabc-11e7-87c4-7bfb8573667a.png" />
 
 
 
