@@ -151,6 +151,25 @@ You can also do aggregation directly in a calculated field. For instance, we can
 
 <img src="https://user-images.githubusercontent.com/31917400/33690599-24191cec-dadc-11e7-91d9-7a67238fe20e.png" />
 
+At the row level, the two calculations are the same. It's the averaging of the [Profit]/[Quantity] calculation that is causing the difference. For the the "Atlantic Mobile 4-Shelf Bookcases" product, all the ratios are correct. But when you average them, (28-112+28+42+28+42)/6 = 9.333, you get what we see at the product name level. The aggregation in the other calculation takes care of that for us. It always calculates the ratios for the level of granularity we're at. You can see the columns Profit and Quantity doing the summation at the level of granularity and the ratio SUM([Profit])/SUM([Quantity]) is taken from those numbers. The two calculations are answering different questions.
+ - What is the profit ratio for a single order within any product or any other category level?
+   - Average of [Profit]/[Quantity]
+ - What is the profit ratio at any level of a category?
+   - SUM([Profit])/SUM([Quantity])
+
+> __Conditional statements__
+We can use conditional statements like IF, THEN, ELSE in calculations. For example to make a new field to categorize sales as "good" and bad", we could do: 
+ - IF SUM([Sales]) > 10000 THEN "Good" ELSE "Bad"
+ - IIF(SUM([Sales]) > 10000, "Good", "Bad") ==> If true, If false
+
+#### XI. Table Calculations
+
+
+
+
+
+
+
 
  
 
