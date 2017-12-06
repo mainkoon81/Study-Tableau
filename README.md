@@ -125,9 +125,10 @@ __Small Multiple:__ Simply dragging multiple dimensions to the Columns and Rows 
 
 <img src="https://user-images.githubusercontent.com/31917400/33672299-d19de4c8-daa1-11e7-9ef7-16882b930330.png" width="600" height="210" /> 
 
-__Dial Axis:__ If we drag two measures to the Rows shelf, we get two plots.  
+__Dual Axis:__ When we drag multiple Measures to the Rows shelf, we get multiple plots. If we want them in one plot, we use dual axis.   
  
 <img src="https://user-images.githubusercontent.com/31917400/33672987-85b9942e-daa3-11e7-8e62-81ce7499bad9.png" width="600" height="210" />
+
 
 
 
