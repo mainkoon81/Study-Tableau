@@ -184,6 +184,11 @@ Tableau is good at grouping data together and let us to drill down into these gr
 
 <img src="https://user-images.githubusercontent.com/31917400/33723821-93c62c22-db65-11e7-838c-e98e831dfd87.jpg" />
 
+#### II. Dashboards, which allow you to analyze multiple sheets all at the same time.
+
+<img src="https://user-images.githubusercontent.com/31917400/33725099-19f8aad8-db69-11e7-9bc5-9e9768d24fc8.png" width="300" height="200" />
+
+
 
 
 
