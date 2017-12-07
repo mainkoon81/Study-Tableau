@@ -171,7 +171,7 @@ In order to get a better idea of how things are moving over time, we might use a
 
 <img src="https://user-images.githubusercontent.com/31917400/33714331-78fd815c-db46-11e7-842c-9b4cec9700d7.png" />
 
-__[tableau II]__
+__[tableau others]__
 
  - I. Working with multiple, different types of data
  - II. Dashboards, which allow you to analyze multiple sheets all at the same time.
@@ -180,6 +180,9 @@ __[tableau II]__
  - V. Additional resources to keep our Tableau skills fresh.
 
 #### I. Working with multiple, different types of data
+Tableau is good at grouping data together and let us to drill down into these groups (hierarchy). Two things I find myself using ALL THE TIME are 'Hierarchies' & 'Filters'. These two components wow your audiences, and take the interactivity with our visual to a new level. for example, the result isn't great here at comparing movies in terms of sales... 
+
+<img src="https://user-images.githubusercontent.com/31917400/33723821-93c62c22-db65-11e7-838c-e98e831dfd87.jpg" />
 
 
 
