@@ -163,7 +163,9 @@ We can use conditional statements like IF, THEN, ELSE in calculations. For examp
 > - IIF(SUM([Sales]) > 10000, "Good", "Bad") ==> If true, If false
 
 #### XI. Table Calculations
+Table calculations can be useful for helping us to compare the data that exists in a plot to other parts of the plot. 
 
+<img src="https://user-images.githubusercontent.com/31917400/33713970-3271b880-db45-11e7-9652-1a1349868053.png" />
 
 
 
