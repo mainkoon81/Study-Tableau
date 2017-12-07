@@ -171,6 +171,15 @@ In order to get a better idea of how things are moving over time, we might use a
 
 <img src="https://user-images.githubusercontent.com/31917400/33714331-78fd815c-db46-11e7-842c-9b4cec9700d7.png" />
 
+__[tableau II]__
+
+ - I. Working with multiple, different types of data
+ - II. Dashboards, which allow you to analyze multiple sheets all at the same time.
+ - III. Working with multiple, different data + Dashboards 
+ - IV. Working with Stories, allows to link together our worksheets in dashboards to give a well rounded grasp of our insights.
+ - V. Additional resources to keep our Tableau skills fresh.
+
+#### I. Working with multiple, different types of data
 
 
 
