@@ -177,7 +177,6 @@ __[tableau others]__
  - II. Dashboards, which allow you to analyze multiple sheets all at the same time.
  - III. Working with multiple, different data + Dashboards 
  - IV. Working with Stories, allows to link together our worksheets in dashboards to give a well rounded grasp of our insights.
- - V. Additional resources to keep our Tableau skills fresh.
 
 #### I. Working with multiple, different types of data
 Tableau is good at grouping data together and let us to drill down into these groups (hierarchy). Two things I find myself using ALL THE TIME are 'Hierarchies' & 'Filters'. These two components wow your audiences, and take the interactivity with our visual to a new level. for example, the result isn't great here at comparing movies in terms of sales... 
@@ -187,6 +186,8 @@ Tableau is good at grouping data together and let us to drill down into these gr
 #### II. Dashboards, which allow you to analyze multiple sheets all at the same time.
 
 <img src="https://user-images.githubusercontent.com/31917400/33725099-19f8aad8-db69-11e7-9bc5-9e9768d24fc8.png" width="300" height="200" />
+
+#### IV. Working with Stories
 
 
 
