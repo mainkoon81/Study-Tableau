@@ -92,12 +92,19 @@ When we create a plot, selecting X Dimension and Y Measure, Tableau is automatic
 
 Aggregations assist in our ability to draw insights, but other times having a point for every row might be better.
 
-#### >Q. Let's say we have, as measures, 'Units' and 'Unit_Price'. But we need 'total_dollar_value'. What are you gonna do? 
+>Q. Adding new column of aggregation: Let's say we have, as measures, 'Units' and 'Unit_Price'. But we need to create  'total_dollar_value'. What are you gonna do? 
  - We need to multiply 'Units' by 'Unit_Price'
    - RightClick on measures and select `Create Calculated Field` then  
 <img src="https://user-images.githubusercontent.com/31917400/35745386-0cc475a0-083b-11e8-9348-fc92d836ec95.jpg" /> 
 
 % Seemingly, Richard is not the best seller overall. Now we know who deserves the bonus. 
+
+>Q. Adding Color: Discrete / Continuous
+ - Discrete
+<img src="https://user-images.githubusercontent.com/31917400/35746661-7496ef88-083f-11e8-80fb-ea991702daea.jpg" /> 
+
+ - Continuous
+<img src="https://user-images.githubusercontent.com/31917400/35747518-713712de-0842-11e8-8a4a-81e62214a464.jpg" width="400" height="250" />
 
 
 
