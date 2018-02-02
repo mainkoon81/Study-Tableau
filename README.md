@@ -106,6 +106,13 @@ Aggregations assist in our ability to draw insights, but other times having a po
  - Continuous Coloring 
 <img src="https://user-images.githubusercontent.com/31917400/35747886-f2fa97ae-0843-11e8-9967-3f8d9cca6fbc.jpg" width="700" height="200" />
 
+>Q. Adding Labels and Formatting
+ - Adding Labels: We can type our own text like.."Sales: <SUM(total_dollar_value)>"
+<img src="https://user-images.githubusercontent.com/31917400/35748792-26a6b0f8-0847-11e8-965d-74eea386fc86.jpg" width="700" height="200" />
+
+% When some text does not appear because of its size: RightClicking -> Choose `mark label > Always Show`   
+ - Formatting: 
+<img src="https://user-images.githubusercontent.com/31917400/35749792-aaf41f64-084a-11e8-8203-4f9480e91a9a.jpg" /> 
 
 
 
