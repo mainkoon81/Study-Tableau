@@ -171,24 +171,6 @@ In order to get a better idea of how things are moving over time, we might use a
 
 <img src="https://user-images.githubusercontent.com/31917400/33714331-78fd815c-db46-11e7-842c-9b4cec9700d7.png" />
 
-__[tableau others]__
-
- - I. Working with multiple, different types of data
- - II. Dashboards, which allow you to analyze multiple sheets all at the same time.
- - III. Working with multiple, different data + Dashboards 
- - IV. Working with Stories, allows to link together our worksheets in dashboards to give a well rounded grasp of our insights.
-
-#### I. Working with multiple, different types of data
-Tableau is good at grouping data together and let us to drill down into these groups (hierarchy). Two things I find myself using ALL THE TIME are 'Hierarchies' & 'Filters'. These two components wow your audiences, and take the interactivity with our visual to a new level. for example, the result isn't great here at comparing movies in terms of sales... 
-
-<img src="https://user-images.githubusercontent.com/31917400/33723821-93c62c22-db65-11e7-838c-e98e831dfd87.jpg" />
-
-#### II. Dashboards, which allow you to analyze multiple sheets all at the same time.
-
-<img src="https://user-images.githubusercontent.com/31917400/33725099-19f8aad8-db69-11e7-9bc5-9e9768d24fc8.png" width="300" height="200" />
-
-#### IV. Working with Stories
-
 
 
 
