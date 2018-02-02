@@ -100,11 +100,11 @@ Aggregations assist in our ability to draw insights, but other times having a po
 % Seemingly, Richard is not the best seller overall. Now we know who deserves the bonus. 
 
 >Q. Adding Color: Discrete / Continuous
- - Discrete
+ - Discrete Coloring 
 <img src="https://user-images.githubusercontent.com/31917400/35746661-7496ef88-083f-11e8-80fb-ea991702daea.jpg" /> 
 
- - Continuous
-<img src="https://user-images.githubusercontent.com/31917400/35747518-713712de-0842-11e8-8a4a-81e62214a464.jpg" width="400" height="250" />
+ - Continuous Coloring 
+<img src="https://user-images.githubusercontent.com/31917400/35747518-713712de-0842-11e8-8a4a-81e62214a464.jpg" width="700" height="200" />
 
 
 
