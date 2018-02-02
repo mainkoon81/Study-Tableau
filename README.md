@@ -92,7 +92,7 @@ When we create a plot, selecting X Dimension and Y Measure, Tableau is automatic
 
 Aggregations assist in our ability to draw insights, but other times having a point for every row might be better.
 
->Q. Adding new column of aggregation: Let's say we have, as measures, 'Units' and 'Unit_Price'. But we need to create  'total_dollar_value'. What are you gonna do? 
+>Q. Adding new column of aggregation(a custom variable): Let's say we have, as measures, 'Units' and 'Unit_Price'. But we need to create  'total_dollar_value'. What are you gonna do? 
  - We need to multiply 'Units' by 'Unit_Price'
    - RightClick on measures and select `Create Calculated Field` then  
 <img src="https://user-images.githubusercontent.com/31917400/35745386-0cc475a0-083b-11e8-9348-fc92d836ec95.jpg" /> 
@@ -117,23 +117,7 @@ Aggregations assist in our ability to draw insights, but other times having a po
  - Formatting Axis
 <img src="https://user-images.githubusercontent.com/31917400/35754487-7c8c3146-085b-11e8-9383-b0dfc087971a.jpg" width="700" height="200" /> 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+>Q. Exporting a worksheet - `Worksheet > Export > Image >`
 
 #### V. Hierarchies
 When you drag "Datetime" variable to Columns, there is a little plus symbol on the "Datetime" field pill. Tableau automatically makes a hierarchy of time periods from "date" and "time" data fields. As we drill down, we get more fine divisions, from year, to quarter, to month, then day. Clicking on minus sign in them, it will go back up the hierarchy. We can make some column to absorb other column as a sub-category. Select both the catgory(mom) and sub-category(child), then, in the drop down for the category(mom), create hierarchy.  
