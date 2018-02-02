@@ -1,4 +1,4 @@
-# Visualization & Storytelling
+# Visualization & Storytelling (Tableau)
 
 ### Communicating information about data visually
 > Why are data visualizations more useful for delivering insight than just using summary statistics?
