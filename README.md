@@ -84,11 +84,39 @@ There are three main products that we can create using Tableau: 1)Worksheets, 2)
 __Plotting:__ Select 'sheet1' in the lower left corner to start visualization. Select the data you want to plot by dragging the fields to the "columns or rows shelves". Dragging dimension to "col-shelve" and measure fields to "row-shelves". It is aggregating the measure data for each dimension and summing the values. 
 
 #### IV. Aggregations
-When we create a plot, selecting X Dimension and Y Measure, Tableau is automatically aggregating X and Y over all records in the data set. To change the aggregation method, we can select Measure then Sum, Average, Median, and others. To get more points, we need to increase the **granularity**. That means we need to aggregate not over all the records, but over something like categories. For instance, we can drag Dimension to “Detail” in the Marks card. We can change the level of granularity by dragging dimensions to the boxes in the Marks card. By increasing the granularity, Tableau is aggregating the data over each Dimension now. We get sums of Measure and Measure for each one. The level of granularity is set by the total number of groups we have in our dimensions. We should be aware of how many items(groups) the selected category field has. Each dot can be in one of n-categories(and in one of other m-categories coz we can select multiple categories). Now the sums of Measure and Measure are being aggregated over groups in selected categories. 
+When we create a plot, selecting X Dimension and Y Measure, Tableau is automatically aggregating X and Y over all records in the data set. To change the aggregation method, we can select Measure then Sum, Average, Median, and others. To get more points, we need to increase the **granularity**. That means we need to aggregate not over all the records, but over something like categories. 
+ - For instance, we can drag Dimension to “Detail” in the Marks card. We can change **the level of granularity** by dragging dimensions to the boxes in the Marks card. By increasing the granularity, Tableau is aggregating the data over each Dimension now. 
+ - We get sums of Measure and Measure for each one. The level of granularity is set by the total number of groups we have in our dimensions. We should be aware of how many items(groups) the selected category field has. Each dot can be in one of n-categories(and in one of other m-categories coz we can select multiple categories). Now the sums of Measure and Measure are being aggregated over groups in selected categories. 
 
 <img src="https://user-images.githubusercontent.com/31917400/33619775-fa67efb2-d9dd-11e7-83e2-e23c03af5ebb.png" width="400" height="250" />
 
-Aggregations assist in our ability to draw insights, but other times having a point for every row might be better.  
+Aggregations assist in our ability to draw insights, but other times having a point for every row might be better.
+
+#### >Q. Let's say we have, as measures, 'Units' and 'Unit_Price'. But we need 'total_dollar_value'. What are you gonna do? 
+ - We need to multiply 'Units' by 'Unit_Price'
+   - RightClick on measures and select `Create Calculated Field` then  
+<img src="https://user-images.githubusercontent.com/31917400/35745386-0cc475a0-083b-11e8-9348-fc92d836ec95.jpg" /> 
+
+% Seemingly, Richard is not the best seller overall. Now we know who deserves the bonus. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #### V. Hierarchies
 When you drag "Datetime" variable to Columns, there is a little plus symbol on the "Datetime" field pill. Tableau automatically makes a hierarchy of time periods from "date" and "time" data fields. As we drill down, we get more fine divisions, from year, to quarter, to month, then day. Clicking on minus sign in them, it will go back up the hierarchy. We can make some column to absorb other column as a sub-category. Select both the catgory(mom) and sub-category(child), then, in the drop down for the category(mom), create hierarchy.  
