@@ -111,7 +111,10 @@ Aggregations assist in our ability to draw insights, but other times having a po
 <img src="https://user-images.githubusercontent.com/31917400/35748792-26a6b0f8-0847-11e8-965d-74eea386fc86.jpg" width="700" height="200" />
 
 % When some text does not appear because of its size: RightClicking -> Choose `mark label > Always Show`   
- - Formatting: 
+ - Formatting Labels 
+<img src="https://user-images.githubusercontent.com/31917400/35749792-aaf41f64-084a-11e8-8203-4f9480e91a9a.jpg" /> 
+
+ - Formatting Axis
 <img src="https://user-images.githubusercontent.com/31917400/35749792-aaf41f64-084a-11e8-8203-4f9480e91a9a.jpg" /> 
 
 
