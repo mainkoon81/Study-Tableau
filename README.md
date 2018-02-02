@@ -83,6 +83,8 @@ There are three main products that we can create using Tableau: 1)Worksheets, 2)
 
 __Plotting:__ Select 'sheet1' in the lower left corner to start visualization. Select the data you want to plot by dragging the fields to the "columns or rows shelves". Dragging dimension to "col-shelve" and measure fields to "row-shelves". It is aggregating the measure data for each dimension and summing the values. 
 
+>Q. Exporting a worksheet - `Worksheet > Export > Image >`
+
 #### IV. Aggregations
 When we create a plot, selecting X Dimension and Y Measure, Tableau is automatically aggregating X and Y over all records in the data set. To change the aggregation method, we can select Measure then Sum, Average, Median, and others. To get more points, we need to increase the **granularity**. That means we need to aggregate not over all the records, but over something like categories. 
  - For instance, we can drag Dimension to “Detail” in the Marks card. We can change **the level of granularity** by dragging dimensions to the boxes in the Marks card. By increasing the granularity, Tableau is aggregating the data over each Dimension now. 
@@ -117,7 +119,16 @@ Aggregations assist in our ability to draw insights, but other times having a po
  - Formatting Axis
 <img src="https://user-images.githubusercontent.com/31917400/35754487-7c8c3146-085b-11e8-9383-b0dfc087971a.jpg" width="700" height="200" /> 
 
->Q. Exporting a worksheet - `Worksheet > Export > Image >`
+
+
+
+
+
+
+
+
+
+
 
 #### V. Hierarchies
 When you drag "Datetime" variable to Columns, there is a little plus symbol on the "Datetime" field pill. Tableau automatically makes a hierarchy of time periods from "date" and "time" data fields. As we drill down, we get more fine divisions, from year, to quarter, to month, then day. Clicking on minus sign in them, it will go back up the hierarchy. We can make some column to absorb other column as a sub-category. Select both the catgory(mom) and sub-category(child), then, in the drop down for the category(mom), create hierarchy.  
@@ -201,6 +212,7 @@ In order to get a better idea of how things are moving over time, we might use a
 <img src="https://user-images.githubusercontent.com/31917400/33714331-78fd815c-db46-11e7-842c-9b4cec9700d7.png" />
 
 
+#### Filter
 
 
 
