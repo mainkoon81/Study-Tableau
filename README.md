@@ -104,7 +104,7 @@ Aggregations assist in our ability to draw insights, but other times having a po
 <img src="https://user-images.githubusercontent.com/31917400/35746661-7496ef88-083f-11e8-80fb-ea991702daea.jpg" /> 
 
  - Continuous Coloring 
-<img src="https://user-images.githubusercontent.com/31917400/35747518-713712de-0842-11e8-8a4a-81e62214a464.jpg" width="700" height="200" />
+<img src="https://user-images.githubusercontent.com/31917400/35747886-f2fa97ae-0843-11e8-9967-3f8d9cca6fbc.jpg" width="700" height="200" />
 
 
 
