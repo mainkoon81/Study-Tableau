@@ -115,7 +115,7 @@ Aggregations assist in our ability to draw insights, but other times having a po
 <img src="https://user-images.githubusercontent.com/31917400/35749792-aaf41f64-084a-11e8-8203-4f9480e91a9a.jpg" /> 
 
  - Formatting Axis
-<img src="https://user-images.githubusercontent.com/31917400/35749792-aaf41f64-084a-11e8-8203-4f9480e91a9a.jpg" /> 
+<img src="https://user-images.githubusercontent.com/31917400/35754487-7c8c3146-085b-11e8-9383-b0dfc087971a.jpg" width="700" height="200" /> 
 
 
 
