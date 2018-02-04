@@ -85,7 +85,10 @@ __Plotting:__ Select 'sheet1' in the lower left corner to start visualization. S
  - map
 <img src="https://user-images.githubusercontent.com/31917400/35782239-0725ed64-09ed-11e8-82ef-347a1b112fe3.jpg" /> 
 
- - Scatter Plot: 
+>What if we want to look at the same time-period(year) across all worksheet? What if we need a consistency? (apply **filter** across may different worksheets)?
+ - Scatter Plot
+<img src="https://user-images.githubusercontent.com/31917400/35783484-dcca6a5a-09ff-11e8-8fdc-08f7291b4aba.jpg" /> 
+ 
 
 
 
