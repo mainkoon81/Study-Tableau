@@ -93,11 +93,18 @@ __Tips__
 
 
 #### IV. Aggregations
-When we create a plot, selecting X Dimension and Y Measure, Tableau is automatically aggregating X and Y over all records in the data set. To change the aggregation method, we can select Measure then Sum, Average, Median, and others. To get more points, we need to increase the **granularity**. That means we need to aggregate not over all the records, but over something like categories. 
- - For instance, we can drag Dimension to “Detail” in the Marks card. We can change **the level of granularity** by dragging dimensions to the boxes in the Marks card. By increasing the granularity, Tableau is aggregating the data over each Dimension now. 
- - We get sums of Measure and Measure for each one. The level of granularity is set by the total number of groups we have in our dimensions. We should be aware of how many items(groups) the selected category field has. Each dot can be in one of n-categories(and in one of other m-categories coz we can select multiple categories). Now the sums of Measure and Measure are being aggregated over groups in selected categories. 
 
-<img src="https://user-images.githubusercontent.com/31917400/35773499-8f46c49e-094c-11e8-924d-357d32aa0038.png" width="400" height="250" />
+__1) Altering aggregation__ 
+Aggregation and granularity govern how Tableau operates. Let's get straight into it !
+
+**A.** When we create a plot, selecting 'dimension'(categorical) and 'measure'(numerical), Tableau is automatically aggregating them over all records in the data set.
+ - We can switch off 'aggregation measures' from the manu bar...it will give a scatter.   
+
+**B.** Next, we can introduce a 'dimension' that will change the level of granularity thus affect the aggregation, dragging it into the 'Marks'box(color/size/label/detail/tooltip/shape). Of course we can introduce more 'dimension'sss to increase granularity further.    
+
+**C.** To change the aggregation method, we can select 'measure' then Sum, Average, Median, and others. To get more points, we need to increase the **granularity**. That means we need to aggregate not over all the records, but over 'dimensions'(categories). By increasing the granularity, Tableau is aggregating the data over each dimension. 
+ - We get sums of 'measure' aggregated over groups in selected categories. The level of granularity is set by the total number of groups we have in our dimensions. We should be aware of **how many groups the selected category field has**. 
+<img src="https://user-images.githubusercontent.com/31917400/35777698-3d7b674c-09aa-11e8-823a-d6e0dca1699e.jpg" />
 
 Aggregations assist in our ability to draw insights, but other times having a point for every row might be better.
 
