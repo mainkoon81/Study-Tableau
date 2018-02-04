@@ -58,7 +58,7 @@ __[tableau]__
 
  - I. Connecting to Data
  - II. Combining Data (connect data from multiple sources)
- - III. Worksheets
+ - III. Worksheets & Dashboards
  - IV. Aggregations
  - V. Hierarchies (look at the data at a year, month, day, hour, or another level)
  - VI. Marks & Filters (controls the colors, shapes and other attributes of our data)
@@ -78,23 +78,25 @@ __Union:__ Drag the second sheet below the first sheet, we get a **union** (if w
 
 __Join:__ Drag the second sheet beside the first, we get a **join** (if both have columns that we can use for the common values).Joins combines data from the sheets based on common values. We can click on the join symbol to change the type of join being performed - Inner/Left/Right/Outter. 
 
-### III. Worksheets
+### III. Worksheets & Dashboards
 There are three main products that we can create using Tableau: 1)Worksheets, 2)Dashboards, 3)Stories. Worksheets are the core of creating dashboards and stories. On the left, fields are split between "dimensions" and "measures". Categorical, qualitative, and time data are listed as "dimensions". Quantitative numerical data is listed as "measure". Tableau automatically aggregates measures, but not dimensions. Dimensions are used to group the data and set the level of granularity.  
 
 __Plotting:__ Select 'sheet1' in the lower left corner to start visualization. Select the data you want to plot by dragging the fields to the "columns or rows shelves". Dragging dimension to "column-shelve" and measure fields to "row-shelves" in general. It is aggregating the measure data for each dimension and summing the values. 
  - map
 <img src="https://user-images.githubusercontent.com/31917400/35782239-0725ed64-09ed-11e8-82ef-347a1b112fe3.jpg" /> 
 
->What if we want to look at the same time-period(year) across all worksheet? What if we need a consistency? (apply **filter** across may different worksheets)?
+>Q. What if we want to look at the same time-period(year) across all worksheet? What if we need a consistency? (apply **filter** across may different worksheets)?
  - Scatter Plot
 <img src="https://user-images.githubusercontent.com/31917400/35783549-12823000-0a01-11e8-8d5b-ec58c53161d5.jpg" /> 
- 
 
+__Dashboards__
+ - the interactive dashboard: 
 
 
 
 __Tips__
 >Q. Exporting a worksheet - `Worksheet > Export > Image >`
+
 >Q. Working with 'Extract Data'
  - Create an 'extract' for Tableau to work from (Copy and Save some data from the original)
  - When you start working with big, dynamic dataset that often changes(constantly being updated)..just like a version control, we want to work with static file to build a visual. It's like capturing and saving.  
