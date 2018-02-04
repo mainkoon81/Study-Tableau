@@ -129,6 +129,7 @@ Aggregations assist in our ability to draw insights, but other times having a po
 #### V. Aggregations - Time Series
 We want to see how 'unemployment rate' is changing as 'period' changes. 
  - 'period': Discrete or Contiguous ?
+ - 'Year/Quarter/Month/Day' --- Changing the granularity(NO.of ticks) of the timeline.  
 <img src="https://user-images.githubusercontent.com/31917400/35773435-70a794b6-094a-11e8-853d-b0dec8360ce3.jpg" /> 
 
 
