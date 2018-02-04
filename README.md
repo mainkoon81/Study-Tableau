@@ -81,9 +81,16 @@ __Join:__ Drag the second sheet beside the first, we get a **join** (if both hav
 #### III. Worksheets
 There are three main products that we can create using Tableau: 1)Worksheets, 2)Dashboards, 3)Stories. Worksheets are the core of creating dashboards and stories. On the left, fields are split between "dimensions" and "measures". Categorical, qualitative, and time data are listed as "dimensions". Quantitative numerical data is listed as "measure". Tableau automatically aggregates measures, but not dimensions. Dimensions are used to group the data and set the level of granularity.  
 
-__Plotting:__ Select 'sheet1' in the lower left corner to start visualization. Select the data you want to plot by dragging the fields to the "columns or rows shelves". Dragging dimension to "col-shelve" and measure fields to "row-shelves". It is aggregating the measure data for each dimension and summing the values. 
+__Plotting:__ Select 'sheet1' in the lower left corner to start visualization. Select the data you want to plot by dragging the fields to the "columns or rows shelves". Dragging dimension to "column-shelve" and measure fields to "row-shelves" in general. It is aggregating the measure data for each dimension and summing the values. 
 
+__Tips__
 >Q. Exporting a worksheet - `Worksheet > Export > Image >`
+>Q. Working with 'Extract Data'
+ - Create an 'extract' for Tableau to work from (Copy and Save some data from the original)
+ - When you start working with big, dynamic dataset that often changes...just like a version control... 
+<img src="https://user-images.githubusercontent.com/31917400/35773041-edb09144-093e-11e8-8fe4-ffa6c7cd9fa3.jpg" width="600" height="200" /> 
+
+
 
 #### IV. Aggregations
 When we create a plot, selecting X Dimension and Y Measure, Tableau is automatically aggregating X and Y over all records in the data set. To change the aggregation method, we can select Measure then Sum, Average, Median, and others. To get more points, we need to increase the **granularity**. That means we need to aggregate not over all the records, but over something like categories. 
@@ -119,8 +126,13 @@ Aggregations assist in our ability to draw insights, but other times having a po
  - Formatting Axis
 <img src="https://user-images.githubusercontent.com/31917400/35754487-7c8c3146-085b-11e8-9383-b0dfc087971a.jpg" width="700" height="200" /> 
 
+#### V. Aggregations - Time Series
+We want to see how 'unemployment rate' is changing as 'period' changes. 
+ - 'period': Discrete or Contiguous ?
+<img src="https://user-images.githubusercontent.com/31917400/35773435-70a794b6-094a-11e8-853d-b0dec8360ce3.jpg" /> 
 
 
+ 
 
 
 
