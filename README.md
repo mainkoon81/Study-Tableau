@@ -92,7 +92,7 @@ __Tips__
 
 ### IV. Aggregations
 
-__1) Altering aggregation__ 
+__[1) Altering aggregation]__ 
 Aggregation(for numerical) and granularity(for categorical) govern how Tableau operates. Let's get straight into it !
 
 **Time Series**
@@ -110,12 +110,15 @@ We want to see how 'certain rate' is changing as 'period' changes.
  - We get sums of 'measure' aggregated over groups in selected categories. The level of granularity is set by the total number of groups we have in our dimensions. We should be aware of **how many groups the selected category field has**. 
 <img src="https://user-images.githubusercontent.com/31917400/35777698-3d7b674c-09aa-11e8-823a-d6e0dca1699e.jpg" />
 
-Aggregations assist in our ability to draw insights, but other times having a point for every row might be better.
+ - Aggregations assist in our ability to draw insights, but other times having a point for every row might be better.
+ 
  - __Highlighting__
    - 'Highlighting' interrogates one of the levels in a category more specifically. Just click the legend.  
    - 'detail' in the 'Marks'box is a dark templer. The 'dimension' on the 'detail' affects the granularity but is not represented anywhere in the chart. So if we want to highlight the 'dimension' on the 'detail', we drag the 'dimension' into 'shape' then click the legend.
  - __Area Chart__
 <img src="https://user-images.githubusercontent.com/31917400/35778439-2332fdee-09b6-11e8-83fb-dacc32b67f8e.jpg" /> 
+
+ - 
 
 
 >Q. Adding new column of aggregation(a custom variable): Let's say we have, as measures, 'Units' and 'Unit_Price'. But we need to create  'total_dollar_value'. What are you gonna do? 
@@ -144,7 +147,7 @@ Aggregations assist in our ability to draw insights, but other times having a po
 <img src="https://user-images.githubusercontent.com/31917400/35754487-7c8c3146-085b-11e8-9383-b0dfc087971a.jpg" width="700" height="200" /> 
 
 
- 
+__[2) ]__  
 
  
 
