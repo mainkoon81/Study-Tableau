@@ -97,7 +97,7 @@ When we create a plot, selecting X Dimension and Y Measure, Tableau is automatic
  - For instance, we can drag Dimension to “Detail” in the Marks card. We can change **the level of granularity** by dragging dimensions to the boxes in the Marks card. By increasing the granularity, Tableau is aggregating the data over each Dimension now. 
  - We get sums of Measure and Measure for each one. The level of granularity is set by the total number of groups we have in our dimensions. We should be aware of how many items(groups) the selected category field has. Each dot can be in one of n-categories(and in one of other m-categories coz we can select multiple categories). Now the sums of Measure and Measure are being aggregated over groups in selected categories. 
 
-<img src="https://user-images.githubusercontent.com/31917400/33619775-fa67efb2-d9dd-11e7-83e2-e23c03af5ebb.png" width="400" height="250" />
+<img src="https://user-images.githubusercontent.com/31917400/35773499-8f46c49e-094c-11e8-924d-357d32aa0038.png" width="400" height="250" />
 
 Aggregations assist in our ability to draw insights, but other times having a point for every row might be better.
 
