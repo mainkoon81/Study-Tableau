@@ -78,7 +78,7 @@ __Union:__ Drag the second sheet below the first sheet, we get a **union** (if w
 
 __Join:__ Drag the second sheet beside the first, we get a **join** (if both have columns that we can use for the common values).Joins combines data from the sheets based on common values. We can click on the join symbol to change the type of join being performed - Inner/Left/Right/Outter. 
 
-#### III. Worksheets
+### III. Worksheets
 There are three main products that we can create using Tableau: 1)Worksheets, 2)Dashboards, 3)Stories. Worksheets are the core of creating dashboards and stories. On the left, fields are split between "dimensions" and "measures". Categorical, qualitative, and time data are listed as "dimensions". Quantitative numerical data is listed as "measure". Tableau automatically aggregates measures, but not dimensions. Dimensions are used to group the data and set the level of granularity.  
 
 __Plotting:__ Select 'sheet1' in the lower left corner to start visualization. Select the data you want to plot by dragging the fields to the "columns or rows shelves". Dragging dimension to "column-shelve" and measure fields to "row-shelves" in general. It is aggregating the measure data for each dimension and summing the values. 
@@ -90,12 +90,16 @@ __Tips__
  - When you start working with big, dynamic dataset that often changes...just like a version control... 
 <img src="https://user-images.githubusercontent.com/31917400/35773041-edb09144-093e-11e8-8fe4-ffa6c7cd9fa3.jpg" width="600" height="200" /> 
 
-
-
 ### IV. Aggregations
 
 __1) Altering aggregation__ 
-Aggregation and granularity govern how Tableau operates. Let's get straight into it !
+Aggregation(for numerical) and granularity(for categorical) govern how Tableau operates. Let's get straight into it !
+
+**Time Series**
+We want to see how 'certain rate' is changing as 'period' changes. 
+ - 'period': Discrete or Contiguous ?
+ - 'Year/Quarter/Month/Day' --- Changing the granularity(NO.of ticks) of the timeline.  
+<img src="https://user-images.githubusercontent.com/31917400/35773435-70a794b6-094a-11e8-853d-b0dec8360ce3.jpg" /> 
 
 **A.** When we create a plot, selecting 'dimension'(categorical) and 'measure'(numerical), Tableau is automatically aggregating them over all records in the data set.
  - We can switch off 'aggregation measures' from the manu bar...it will give a scatter.   
@@ -107,6 +111,12 @@ Aggregation and granularity govern how Tableau operates. Let's get straight into
 <img src="https://user-images.githubusercontent.com/31917400/35777698-3d7b674c-09aa-11e8-823a-d6e0dca1699e.jpg" />
 
 Aggregations assist in our ability to draw insights, but other times having a point for every row might be better.
+ - __Highlighting__
+   - 'Highlighting' interrogates one of the levels in a category more specifically. Just click the legend.  
+   - 'detail' in the 'Marks'box is a dark templer. The 'dimension' on the 'detail' affects the granularity but is not represented anywhere in the chart. So if we want to highlight the 'dimension' on the 'detail', we drag the 'dimension' into 'shape' then click the legend.
+ - __Area Chart__
+<img src="https://user-images.githubusercontent.com/31917400/35778439-2332fdee-09b6-11e8-83fb-dacc32b67f8e.jpg" /> 
+
 
 >Q. Adding new column of aggregation(a custom variable): Let's say we have, as measures, 'Units' and 'Unit_Price'. But we need to create  'total_dollar_value'. What are you gonna do? 
  - We need to multiply 'Units' by 'Unit_Price'
@@ -133,12 +143,8 @@ Aggregations assist in our ability to draw insights, but other times having a po
  - Formatting Axis
 <img src="https://user-images.githubusercontent.com/31917400/35754487-7c8c3146-085b-11e8-9383-b0dfc087971a.jpg" width="700" height="200" /> 
 
-### V. Aggregations - Time Series
-We want to see how 'unemployment rate' is changing as 'period' changes. 
- - 'period': Discrete or Contiguous ?
- - 'Year/Quarter/Month/Day' --- Changing the granularity(NO.of ticks) of the timeline.  
-<img src="https://user-images.githubusercontent.com/31917400/35773435-70a794b6-094a-11e8-853d-b0dec8360ce3.jpg" /> 
 
+ 
 
  
 
