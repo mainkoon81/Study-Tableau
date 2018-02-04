@@ -118,24 +118,24 @@ We want to see how 'certain rate' is changing as 'period' changes.
  - __Area Chart__
 <img src="https://user-images.githubusercontent.com/31917400/35778439-2332fdee-09b6-11e8-83fb-dacc32b67f8e.jpg" /> 
 
- - 
+>Q. Adding **filters**: We built a chart, but there is a missing 'dimension' that need to be considered, then we put this 'dimension' into a 'filter'shelve. We can customize our filter to check and isolate the chart of a particular level of the 'dimension'. 
+<img src="https://user-images.githubusercontent.com/31917400/35781017-0d572b1e-09dc-11e8-807b-153390fe86c0.jpg" /> 
 
-
->Q. Adding new column of aggregation(a custom variable): Let's say we have, as measures, 'Units' and 'Unit_Price'. But we need to create  'total_dollar_value'. What are you gonna do? 
+>Q. Adding new **custom variable**(a column of aggregation): Let's say we have, as measures, 'Units' and 'Unit_Price'. But we need to create  'total_dollar_value'. What are you gonna do? 
  - We need to multiply 'Units' by 'Unit_Price'
    - RightClick on measures and select `Create Calculated Field` then  
 <img src="https://user-images.githubusercontent.com/31917400/35745386-0cc475a0-083b-11e8-9348-fc92d836ec95.jpg" /> 
 
 % Seemingly, Richard is not the best seller overall. Now we know who deserves the bonus. 
 
->Q. Adding Color: Discrete / Continuous
+>Q. Adding **Color**: Discrete / Continuous
  - Discrete Coloring 
 <img src="https://user-images.githubusercontent.com/31917400/35746661-7496ef88-083f-11e8-80fb-ea991702daea.jpg" /> 
 
  - Continuous Coloring 
 <img src="https://user-images.githubusercontent.com/31917400/35747886-f2fa97ae-0843-11e8-9967-3f8d9cca6fbc.jpg" width="700" height="200" />
 
->Q. Adding Labels and Formatting
+>Q. Adding **Labels and Formatting**
  - Adding Labels: We can type our own text like.."Sales: <SUM(total_dollar_value)>"
 <img src="https://user-images.githubusercontent.com/31917400/35748792-26a6b0f8-0847-11e8-965d-74eea386fc86.jpg" width="700" height="200" />
 
