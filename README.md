@@ -82,6 +82,13 @@ __Join:__ Drag the second sheet beside the first, we get a **join** (if both hav
 There are three main products that we can create using Tableau: 1)Worksheets, 2)Dashboards, 3)Stories. Worksheets are the core of creating dashboards and stories. On the left, fields are split between "dimensions" and "measures". Categorical, qualitative, and time data are listed as "dimensions". Quantitative numerical data is listed as "measure". Tableau automatically aggregates measures, but not dimensions. Dimensions are used to group the data and set the level of granularity.  
 
 __Plotting:__ Select 'sheet1' in the lower left corner to start visualization. Select the data you want to plot by dragging the fields to the "columns or rows shelves". Dragging dimension to "column-shelve" and measure fields to "row-shelves" in general. It is aggregating the measure data for each dimension and summing the values. 
+ - map
+<img src="https://user-images.githubusercontent.com/31917400/35782239-0725ed64-09ed-11e8-82ef-347a1b112fe3.jpg" /> 
+
+ - Scatter Plot: 
+
+
+
 
 __Tips__
 >Q. Exporting a worksheet - `Worksheet > Export > Image >`
@@ -163,6 +170,19 @@ __[2) ]__
 When you drag "Datetime" variable to Columns, there is a little plus symbol on the "Datetime" field pill. Tableau automatically makes a hierarchy of time periods from "date" and "time" data fields. As we drill down, we get more fine divisions, from year, to quarter, to month, then day. Clicking on minus sign in them, it will go back up the hierarchy. We can make some column to absorb other column as a sub-category. Select both the catgory(mom) and sub-category(child), then, in the drop down for the category(mom), create hierarchy.  
 
 <img src="https://user-images.githubusercontent.com/31917400/33630630-f9b0e8fe-d9ff-11e7-8347-15c03b04a734.jpg" width="600" height="150" />
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### VI. Marks & Filters
 __Mark card:__ Often, we’ll want to include more dimensions in our graph. We can add dimensions to the plot (increasing granularity) by dragging dimensions or measures to the Marks shelf. It has options such as color, size, and shape. 
