@@ -87,7 +87,7 @@ __Tips__
 >Q. Exporting a worksheet - `Worksheet > Export > Image >`
 >Q. Working with 'Extract Data'
  - Create an 'extract' for Tableau to work from (Copy and Save some data from the original)
- - When you start working with big, dynamic dataset that often changes...just like a version control... 
+ - When you start working with big, dynamic dataset that often changes(constantly being updated)..just like a version control, we want to work with static file to build a visual. It's like capturing and saving.  
 <img src="https://user-images.githubusercontent.com/31917400/35773041-edb09144-093e-11e8-8fe4-ffa6c7cd9fa3.jpg" width="600" height="200" /> 
 
 ### IV. Aggregations
