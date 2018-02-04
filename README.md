@@ -68,10 +68,10 @@ __[tableau]__
  - X. Calculated Fields (add calculated fields to a visualization on the fly)
  - XI. Table Calculations (perform comparisons of our data over time or between groups)
 
-#### I. Connecting to Data
+### I. Connecting to Data
 In the left sidebar you'll see the data sources you can connect to. For file sources, you can connect to an Excel file, a text file such as a CSV, or statistical files such as from SAS, SPSS, and R. If Tableau detects sub-tables, unique formatting, or some extraneous information, the **Data Interpreter** option becomes available. 
 
-#### II. Combining Data 
+### II. Combining Data 
 Dragging multiple sheets(tables) into the top panel and get two different outcomes depending on where to drag it, a **union** or a **join**.
 
 __Union:__ Drag the second sheet below the first sheet, we get a **union** (if we have multiple sheets with **columns in common** as the columns will match up). Unions stack the data on top of each other, the second sheet ends up being appended to the end of the first sheet.  
@@ -92,7 +92,7 @@ __Tips__
 
 
 
-#### IV. Aggregations
+### IV. Aggregations
 
 __1) Altering aggregation__ 
 Aggregation and granularity govern how Tableau operates. Let's get straight into it !
@@ -133,7 +133,7 @@ Aggregations assist in our ability to draw insights, but other times having a po
  - Formatting Axis
 <img src="https://user-images.githubusercontent.com/31917400/35754487-7c8c3146-085b-11e8-9383-b0dfc087971a.jpg" width="700" height="200" /> 
 
-#### V. Aggregations - Time Series
+### V. Aggregations - Time Series
 We want to see how 'unemployment rate' is changing as 'period' changes. 
  - 'period': Discrete or Contiguous ?
  - 'Year/Quarter/Month/Day' --- Changing the granularity(NO.of ticks) of the timeline.  
@@ -150,12 +150,12 @@ We want to see how 'unemployment rate' is changing as 'period' changes.
 
 
 
-#### V. Hierarchies
+### V. Hierarchies
 When you drag "Datetime" variable to Columns, there is a little plus symbol on the "Datetime" field pill. Tableau automatically makes a hierarchy of time periods from "date" and "time" data fields. As we drill down, we get more fine divisions, from year, to quarter, to month, then day. Clicking on minus sign in them, it will go back up the hierarchy. We can make some column to absorb other column as a sub-category. Select both the catgory(mom) and sub-category(child), then, in the drop down for the category(mom), create hierarchy.  
 
 <img src="https://user-images.githubusercontent.com/31917400/33630630-f9b0e8fe-d9ff-11e7-8347-15c03b04a734.jpg" width="600" height="150" />
 
-#### VI. Marks & Filters
+### VI. Marks & Filters
 __Mark card:__ Often, we’ll want to include more dimensions in our graph. We can add dimensions to the plot (increasing granularity) by dragging dimensions or measures to the Marks shelf. It has options such as color, size, and shape. 
  - __Color:__ Most often we'll be encoding data with color. We simply drag the field to "Color" in the Marks card.
  
@@ -175,12 +175,12 @@ __Mark & Filter card:__ This way we can view only the data we are interested in.
 
 <img src="https://user-images.githubusercontent.com/31917400/33634715-1357dbf2-da0d-11e7-8551-7118d09c3768.jpg" />
 
-#### VII. Show Me
+### VII. Show Me
 The Show Me feature is a quick way to start with a basic graph which we can add to afterwards. We can find it in the top-right of the sheet. Selecting multiple fields we want simultaneously then clicking the show me graph. From there you can customize the graph. Show Me is usually a good start once you decide what you want to look at or show. Here, filters would definitely help us narrow to look at one question at a time. 
 
 <img src="https://user-images.githubusercontent.com/31917400/33668273-33e708f4-da97-11e7-9f27-eb2f8d187029.jpg" width="500" height="200" /> 
 
-#### VIII. Small Multiples & Dual Axis
+### VIII. Small Multiples & Dual Axis
 __Small Multiple:__ (split) Simply dragging multiple dimensions to the Columns and Rows shelves creates a small multiple. We saw this before when learning about hierarchies. The main advantages of the Small Multiples view is to be able to see 'little ranges' of our data at a time.
 
 <img src="https://user-images.githubusercontent.com/31917400/33672299-d19de4c8-daa1-11e7-9ef7-16882b930330.png" width="600" height="210" /> 
@@ -189,7 +189,7 @@ __Dual Axis:__ (overlap) When we drag multiple Measures to the Rows shelf, we ge
  
 <img src="https://user-images.githubusercontent.com/31917400/33672987-85b9942e-daa3-11e7-8e62-81ce7499bad9.png" width="600" height="210" />
 
-#### IX. Groups & Sets
+### IX. Groups & Sets
 __Groups:__ Groups are typically created from the view by selecting multiple data points in the view. We can use it in other sheets. For instance, create a map that shows how the low quantity countries (grouped) are distributed in the world. Here we used the group we created (Low Quantity Countries) to color the map. The blue countries are the ones in the group, the ones with low average quantity.
 
 <img src="https://user-images.githubusercontent.com/31917400/33680974-261d075e-dabb-11e7-83c5-a32b1007c182.png" />
@@ -202,7 +202,7 @@ We can use the set in plots to encode these products that are losing money. Let'
 
 <img src="https://user-images.githubusercontent.com/31917400/33681549-cd9233fa-dabc-11e7-87c4-7bfb8573667a.png" />
 
-#### X. Calculated Fields
+### X. Calculated Fields
 With more than a **binary split** (just two categories), using a Group or Set might not be the best option. Instead, you should use a Calculated Field. There will be times when we want to look at something but there isn't a specific field for it. For instance, maybe we want to know the 'profit' per item for each 'order' record. It seems pretty simple, just divide 'profit' by 'order' for each record, then aggregate it, but how do you actually do the division in Tableau? The answer is calculated fields. Calculated fields let us create new fields to use in our visualizations. To create a calculated field, open the menu on a field (such as 'Profit'), then Create > Calculated Field....Fields in the editor show up in brackets, like [Profit]. We can do simple arithmetic here, like adding a constant, or multiplying the field. We can also use functions such as absolute value, sine, square root, etc. Here we want to create a new field that calculates the profit per item for each record - [Profit]/[Quantity]. We also renamed the calculated field to "Profit per item". 
 
 <img src="https://user-images.githubusercontent.com/31917400/33688641-0890a632-dad4-11e7-8401-43b4e9465d92.png" />
@@ -222,7 +222,7 @@ We can use conditional statements like IF, THEN, ELSE in calculations. For examp
 > - IF SUM([Sales]) > 10000 THEN "Good" ELSE "Bad"
 > - IIF(SUM([Sales]) > 10000, "Good", "Bad") ==> If true, If false
 
-#### XI. Table Calculations
+### XI. Table Calculations
 Table calculations can be useful for helping us to compare the data that exists in a plot to other parts of the plot. What if we want to compare the percent of profits that went into each market to the total profit. Select the drop down associated with SUM(Profit), and select ```Quick Table Calculation... > Percent of Total```. Alternatively, it could be useful to look at compounding profit. A lot of table calculations work well for line plots. Let's take a look at an example. Add the Order Date to the Columns and Sales to the Rows. Make sure the Order Date is continuous. Drill down to the Quarter level, and select ```Quick Table Calculation... > Percent Difference```. 
 
 <img src="https://user-images.githubusercontent.com/31917400/33713970-3271b880-db45-11e7-9652-1a1349868053.png" />
@@ -232,7 +232,7 @@ In order to get a better idea of how things are moving over time, we might use a
 <img src="https://user-images.githubusercontent.com/31917400/33714331-78fd815c-db46-11e7-842c-9b4cec9700d7.png" />
 
 
-#### Filter
+### Filter
 
 
 
