@@ -90,7 +90,7 @@ __Plotting:__ Select 'sheet1' in the lower left corner to start visualization. S
 <img src="https://user-images.githubusercontent.com/31917400/35783549-12823000-0a01-11e8-8d5b-ec58c53161d5.jpg" /> 
 
 __Dashboards - Action__
- - The interactive dashboard: connect and let different workheets communicate with each other by 2 actions ('filtering' or 'highlighting')
+ - The interactive dashboard: connect and let different workheets communicate with each other by 2 actions ('filtering' or 'highlighting') - isolating or outstanding
 <img src="https://user-images.githubusercontent.com/31917400/35821452-efe2d87e-0aa0-11e8-9358-4361c0208e8f.jpg" /> 
 
 <img src="https://user-images.githubusercontent.com/31917400/35826725-7ff2b898-0ab1-11e8-9257-5444d3090666.jpg" /> 
