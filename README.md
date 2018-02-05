@@ -90,8 +90,8 @@ __Plotting:__ Select 'sheet1' in the lower left corner to start visualization. S
 <img src="https://user-images.githubusercontent.com/31917400/35783549-12823000-0a01-11e8-8d5b-ec58c53161d5.jpg" /> 
 
 __Dashboards__
- - the interactive dashboard: 
-
+ - The interactive dashboard: connect and let different workheets communicate each other by 2 actions ('filtering' + 'highlighting')
+<img src="https://user-images.githubusercontent.com/31917400/35821452-efe2d87e-0aa0-11e8-9358-4361c0208e8f.jpg" /> 
 
 
 __Tips__
