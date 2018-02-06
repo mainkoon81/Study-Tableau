@@ -84,9 +84,14 @@ __Join:__ Drag the second sheet beside the first, we get a **join** (if both hav
 <img src="https://user-images.githubusercontent.com/31917400/35856594-67dce620-0b2e-11e8-8891-44c228241564.jpg" width="800" height="120" /> 
 
  - Join VS Blend: When joining multiple tables, due to the difference in their level of granularities, we lose some information('str'type...numeric values will be summed up).    
-<img src="https://user-images.githubusercontent.com/31917400/35856597-6a2d95b4-0b2e-11e8-99b4-8a6cf87c40f9.jpg" width="580" height="150" /> 
+<img src="https://user-images.githubusercontent.com/31917400/35856760-dba3c3da-0b2e-11e8-9f65-06b8861e12a8.jpg" width="580" height="150" /> 
 
-__Blend:__ A Blend is a smart join.
+__Blend:__ A Blend is a smart join. In general, we prepare datasets(join, union, etc) before we work for fit in our workbooks. But a blend allows us to do this on the fly in our workbooks. It experiences the granularity one by one and takes selectively.
+ - 
+ - Open each sheet independently as two different connections(clicking and using 'show starting page' on the top left corner). 
+ - In the workbook section for visualization, we can see some 'chain icon' on the field from the second data source.
+ - As a follow up, multiple 'Marksboxs' appear.
+ - 
 
 
 
