@@ -78,10 +78,10 @@ __Union:__ Drag the second sheet below the first sheet, we get a **union** (if w
 
 __Join:__ Drag the second sheet beside the first, we get a **join** (if both have columns that we can use for the common values).Joins combines data from the sheets based on common values. We can click on the join symbol to change the type of join being performed - Inner/Left/Right/Outer.
  - Why some columns have **duplicate values**?  
-<img src="https://user-images.githubusercontent.com/31917400/35830628-c928eaca-0abe-11e8-8d92-4e7ce1f4a105.jpg" width="800" height="150" /> 
+<img src="https://user-images.githubusercontent.com/31917400/35835600-84361b26-0ad3-11e8-8892-7b976489ebe2.jpg" width="800" height="150" /> 
 
  - When do we join on **multiple columns**?
-<img src="https://user-images.githubusercontent.com/31917400/35831150-b700a2e6-0ac0-11e8-95a3-3aec94c6b016.jpg" width="800" height="120" /> 
+<img src="https://user-images.githubusercontent.com/31917400/35835601-8753768c-0ad3-11e8-9f17-cf656e9976f5.jpg" width="800" height="120" /> 
 
  - Join VS Blend
    - 
