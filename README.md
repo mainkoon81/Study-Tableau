@@ -78,13 +78,13 @@ __Union:__ Drag the second sheet below the first sheet, we get a **union** (if w
 
 __Join:__ Drag the second sheet beside the first, we get a **join** (if both have columns that we can use for the common values).Joins combines data from the sheets based on common values. We can click on the join symbol to change the type of join being performed - Inner/Left/Right/Outer.
  - Why some columns have **duplicate values**?  
-<img src="https://user-images.githubusercontent.com/31917400/35835600-84361b26-0ad3-11e8-8892-7b976489ebe2.jpg" width="800" height="150" /> 
+<img src="https://user-images.githubusercontent.com/31917400/35856591-64cecc78-0b2e-11e8-8350-26d6c8769c33.jpg" width="800" height="150" /> 
 
  - When do we join on **multiple columns**?
-<img src="https://user-images.githubusercontent.com/31917400/35835601-8753768c-0ad3-11e8-9f17-cf656e9976f5.jpg" width="800" height="120" /> 
+<img src="https://user-images.githubusercontent.com/31917400/35856594-67dce620-0b2e-11e8-8891-44c228241564.jpg" width="800" height="120" /> 
 
  - Join VS Blend: When joining multiple tables, due to the difference in their level of granularities, we lose some information('str'type...numeric values will be summed up).    
-<img src="https://user-images.githubusercontent.com/31917400/35855884-582c2aa8-0b2c-11e8-9e28-21531eed295c.jpg" width="580" height="150" /> 
+<img src="https://user-images.githubusercontent.com/31917400/35856597-6a2d95b4-0b2e-11e8-99b4-8a6cf87c40f9.jpg" width="580" height="150" /> 
 
 __Blend:__ A Blend is a smart join.
 
