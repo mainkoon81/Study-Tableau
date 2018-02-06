@@ -83,13 +83,10 @@ __Join:__ Drag the second sheet beside the first, we get a **join** (if both hav
  - When do we join on **multiple columns**?
 <img src="https://user-images.githubusercontent.com/31917400/35835601-8753768c-0ad3-11e8-9f17-cf656e9976f5.jpg" width="800" height="120" /> 
 
- - Join VS Blend
-   - 
+ - Join VS Blend: When joining multiple tables, due to the difference in their level of granularities, we lose some information('str'type...numeric values will be summed up).    
+<img src="https://user-images.githubusercontent.com/31917400/35855884-582c2aa8-0b2c-11e8-9e28-21531eed295c.jpg" width="580" height="150" /> 
 
-
-
-
-__Blend:__ 
+__Blend:__ A Blend is a smart join.
 
 
 
