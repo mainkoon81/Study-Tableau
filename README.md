@@ -76,7 +76,24 @@ Dragging multiple sheets(tables) into the top panel and get two different outcom
 
 __Union:__ Drag the second sheet below the first sheet, we get a **union** (if we have multiple sheets with **columns in common** as the columns will match up). Unions stack the data on top of each other, the second sheet ends up being appended to the end of the first sheet.  
 
-__Join:__ Drag the second sheet beside the first, we get a **join** (if both have columns that we can use for the common values).Joins combines data from the sheets based on common values. We can click on the join symbol to change the type of join being performed - Inner/Left/Right/Outter. 
+__Join:__ Drag the second sheet beside the first, we get a **join** (if both have columns that we can use for the common values).Joins combines data from the sheets based on common values. We can click on the join symbol to change the type of join being performed - Inner/Left/Right/Outer.
+ - Why some columns have **duplicate values**?  
+<img src="https://user-images.githubusercontent.com/31917400/35830628-c928eaca-0abe-11e8-8d92-4e7ce1f4a105.jpg" width="800" height="150" /> 
+
+ - When do we join on **multiple columns**?
+<img src="https://user-images.githubusercontent.com/31917400/35831150-b700a2e6-0ac0-11e8-95a3-3aec94c6b016.jpg" width="800" height="120" /> 
+
+ - Join VS Blend
+   - 
+
+
+
+
+__Blend:__ 
+
+
+
+
 
 ### III. Worksheets & Dashboards
 There are three main products that we can create using Tableau: 1)Worksheets, 2)Dashboards, 3)Stories. Worksheets are the core of creating dashboards and stories. On the left, fields are split between "dimensions" and "measures". Categorical, qualitative, and time data are listed as "dimensions". Quantitative numerical data is listed as "measure". Tableau automatically aggregates measures, but not dimensions. Dimensions are used to group the data and set the level of granularity.  
