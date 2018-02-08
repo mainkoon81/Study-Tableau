@@ -96,7 +96,7 @@ __Blend:__ A Blend is a smart join. In general, we prepare datasets(join, union,
 <img src="https://user-images.githubusercontent.com/31917400/35974181-e5c8a25c-0ccf-11e8-8e3f-c4da5fe607fc.jpg" /> 
 
  - Blend and **Dual Axis**
-   - 
+<img src="https://user-images.githubusercontent.com/31917400/35975150-9a2a2970-0cd3-11e8-85c4-32b2ad93644f.jpg" /> 
 
 
 
