@@ -65,8 +65,7 @@ __[tableau]__
  - VII. Show Me (controls what our ending visual looks like)
  - VIII. Small Multiples & Dual Axis (to visualize data that needs to share an axis for comparison purposes)
  - IX. Groups & Sets (categorize our data within a visualization)
- - X. Calculated Fields (add calculated fields to a visualization on the fly)
- - XI. Table Calculations (perform comparisons of our data over time or between groups)
+ - X. Table Calculations (perform comparisons of our data over time or between groups)
 
 ### I. Connecting to Data
 In the left sidebar you'll see the data sources you can connect to. For file sources, you can connect to an Excel file, a text file such as a CSV, or statistical files such as from SAS, SPSS, and R. If Tableau detects sub-tables, unique formatting, or some extraneous information, the **Data Interpreter** option becomes available. 
@@ -97,7 +96,6 @@ __Blend:__ A Blend is a smart join. In general, we prepare datasets(join, union,
 
  - Blend and **Dual Axis**
 <img src="https://user-images.githubusercontent.com/31917400/35975150-9a2a2970-0cd3-11e8-85c4-32b2ad93644f.jpg" /> 
-
 
 
 ### III. Worksheets & Dashboards
@@ -181,10 +179,33 @@ We want to see how 'certain rate' is changing as 'period' changes.
  - Formatting Axis
 <img src="https://user-images.githubusercontent.com/31917400/35754487-7c8c3146-085b-11e8-9383-b0dfc087971a.jpg" width="700" height="200" /> 
 
+__[2) Calculated Fields]__ Add 'calculated fields' to a visualization on the fly
+ With more than a **binary split** (just two categories), using a Group or Set might not be the best option. Instead, you should use a Calculated Field. There will be times when we want to look at something but there isn't a specific field for it. For instance, maybe we want to know the 'profit' per item for each 'order' record. It seems pretty simple, just divide 'profit' by 'order' for each record, then aggregate it, but how do you actually do the division in Tableau? The answer is calculated fields. Calculated fields let us create new fields to use in our visualizations. To create a calculated field, open the menu on a field (such as 'Profit'), then Create > Calculated Field....Fields in the editor show up in brackets, like [Profit]. We can do simple arithmetic here, like adding a constant, or multiplying the field. We can also use functions such as absolute value, sine, square root, etc. Here we want to create a new field that calculates the profit per item for each record - [Profit]/[Quantity]. We also renamed the calculated field to "Profit per item". 
 
-__[2) ]__  
+<img src="https://user-images.githubusercontent.com/31917400/33688641-0890a632-dad4-11e7-8401-43b4e9465d92.png" />
 
+You can also do aggregation directly in a calculated field. For instance, we can also calculate the profit per item by SUM([Profit])/SUM([Quantity]). The two methods for calculating the profit per item look basically the same, but there are some discrepancies like in "Tables". Now we see there are some weird things going on. A lot of the results from the two methods are extremely different. The third product has a profit per item of $9 or -$5. Looking at the values of Profit and Quantity, it appears that the aggregation method (SUM([Profit])/SUM([Quantity]) is doing the right thing.
+
+<img src="https://user-images.githubusercontent.com/31917400/33690599-24191cec-dadc-11e7-91d9-7a67238fe20e.png" />
+
+At the row level, the two calculations are the same. It's the averaging of the [Profit]/[Quantity] calculation that is causing the difference. For the the "Atlantic Mobile 4-Shelf Bookcases" product, all the ratios are correct. But when you average them, (28-112+28+42+28+42)/6 = 9.333, you get what we see at the product name level. The aggregation in the other calculation takes care of that for us. It always calculates the ratios for the level of granularity we're at. You can see the columns Profit and Quantity doing the summation at the level of granularity and the ratio SUM([Profit])/SUM([Quantity]) is taken from those numbers. The two calculations are answering different questions.
+ - What is the profit ratio for a single order within any product or any other category level?
+   - Average of [Profit]/[Quantity]
+ - What is the profit ratio at any level of a category?
+   - SUM([Profit])/SUM([Quantity])
+
+> __Conditional statements__
+We can use conditional statements like IF, THEN, ELSE in calculations. For example to make a new field to categorize sales as "good" and bad", we could do: 
+> - IF SUM([Sales]) > 10000 THEN "Good" ELSE "Bad"
+> - IIF(SUM([Sales]) > 10000, "Good", "Bad") ==> If true, If false
  
+
+
+
+
+
+
+
 
 
 
@@ -259,25 +280,7 @@ We can use the set in plots to encode these products that are losing money. Let'
 
 <img src="https://user-images.githubusercontent.com/31917400/33681549-cd9233fa-dabc-11e7-87c4-7bfb8573667a.png" />
 
-### X. Calculated Fields
-With more than a **binary split** (just two categories), using a Group or Set might not be the best option. Instead, you should use a Calculated Field. There will be times when we want to look at something but there isn't a specific field for it. For instance, maybe we want to know the 'profit' per item for each 'order' record. It seems pretty simple, just divide 'profit' by 'order' for each record, then aggregate it, but how do you actually do the division in Tableau? The answer is calculated fields. Calculated fields let us create new fields to use in our visualizations. To create a calculated field, open the menu on a field (such as 'Profit'), then Create > Calculated Field....Fields in the editor show up in brackets, like [Profit]. We can do simple arithmetic here, like adding a constant, or multiplying the field. We can also use functions such as absolute value, sine, square root, etc. Here we want to create a new field that calculates the profit per item for each record - [Profit]/[Quantity]. We also renamed the calculated field to "Profit per item". 
 
-<img src="https://user-images.githubusercontent.com/31917400/33688641-0890a632-dad4-11e7-8401-43b4e9465d92.png" />
-
-You can also do aggregation directly in a calculated field. For instance, we can also calculate the profit per item by SUM([Profit])/SUM([Quantity]). The two methods for calculating the profit per item look basically the same, but there are some discrepancies like in "Tables". Now we see there are some weird things going on. A lot of the results from the two methods are extremely different. The third product has a profit per item of $9 or -$5. Looking at the values of Profit and Quantity, it appears that the aggregation method (SUM([Profit])/SUM([Quantity]) is doing the right thing.
-
-<img src="https://user-images.githubusercontent.com/31917400/33690599-24191cec-dadc-11e7-91d9-7a67238fe20e.png" />
-
-At the row level, the two calculations are the same. It's the averaging of the [Profit]/[Quantity] calculation that is causing the difference. For the the "Atlantic Mobile 4-Shelf Bookcases" product, all the ratios are correct. But when you average them, (28-112+28+42+28+42)/6 = 9.333, you get what we see at the product name level. The aggregation in the other calculation takes care of that for us. It always calculates the ratios for the level of granularity we're at. You can see the columns Profit and Quantity doing the summation at the level of granularity and the ratio SUM([Profit])/SUM([Quantity]) is taken from those numbers. The two calculations are answering different questions.
- - What is the profit ratio for a single order within any product or any other category level?
-   - Average of [Profit]/[Quantity]
- - What is the profit ratio at any level of a category?
-   - SUM([Profit])/SUM([Quantity])
-
-> __Conditional statements__
-We can use conditional statements like IF, THEN, ELSE in calculations. For example to make a new field to categorize sales as "good" and bad", we could do: 
-> - IF SUM([Sales]) > 10000 THEN "Good" ELSE "Bad"
-> - IIF(SUM([Sales]) > 10000, "Good", "Bad") ==> If true, If false
 
 ### XI. Table Calculations
 Table calculations can be useful for helping us to compare the data that exists in a plot to other parts of the plot. What if we want to compare the percent of profits that went into each market to the total profit. Select the drop down associated with SUM(Profit), and select ```Quick Table Calculation... > Percent of Total```. Alternatively, it could be useful to look at compounding profit. A lot of table calculations work well for line plots. Let's take a look at an example. Add the Order Date to the Columns and Sales to the Rows. Make sure the Order Date is continuous. Drill down to the Quarter level, and select ```Quick Table Calculation... > Percent Difference```. 
