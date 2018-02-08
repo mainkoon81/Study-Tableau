@@ -98,6 +98,7 @@ __Blend:__ A Blend is a smart join. In general, we prepare datasets(join, union,
 <img src="https://user-images.githubusercontent.com/31917400/35975150-9a2a2970-0cd3-11e8-85c4-32b2ad93644f.jpg" /> 
 
  - Blend and **Calculated fields**
+ - How is creating calculated fields in a Blend different to creating normal calculated fields? The data elements used have to be aggregated...
 <img src="https://user-images.githubusercontent.com/31917400/35988525-93073e4e-0cf6-11e8-8e21-545f9d5658d8.jpg" /> 
 
 ### III. Worksheets & Dashboards
