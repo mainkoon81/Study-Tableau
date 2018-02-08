@@ -97,6 +97,8 @@ __Blend:__ A Blend is a smart join. In general, we prepare datasets(join, union,
  - Blend and **Dual Axis**
 <img src="https://user-images.githubusercontent.com/31917400/35975150-9a2a2970-0cd3-11e8-85c4-32b2ad93644f.jpg" /> 
 
+ - Blend and **Calculated fields**
+<img src="https://user-images.githubusercontent.com/31917400/35988525-93073e4e-0cf6-11e8-8e21-545f9d5658d8.jpg" /> 
 
 ### III. Worksheets & Dashboards
 There are three main products that we can create using Tableau: 1)Worksheets, 2)Dashboards, 3)Stories. Worksheets are the core of creating dashboards and stories. On the left, fields are split between "dimensions" and "measures". Categorical, qualitative, and time data are listed as "dimensions". Quantitative numerical data is listed as "measure". Tableau automatically aggregates measures, but not dimensions. Dimensions are used to group the data and set the level of granularity.  
@@ -182,9 +184,6 @@ We want to see how 'certain rate' is changing as 'period' changes.
 __[2) Calculated Fields]__ Add 'calculated fields' to a visualization on the fly
 
 There will be times when we want to look at something but there isn't a specific field for it. For instance, maybe we want to know the 'profit' per item for each 'order' record. It seems pretty simple, just divide 'profit' by 'order' for each record, then aggregate it. 'clalculated fields' let us create new fields to use in our visualizations. To create a calculated field, open the menu on a field (such as 'Profit'), then Create > Calculated Field....Fields in the editor show up in brackets, like [Profit]. We can do simple arithmetic here, like adding a constant, or multiplying the field. We can also use functions such as absolute value, sine, square root, etc. Here we want to create a new field that calculates the profit per item for each record - [Profit]/[Quantity]. We also renamed the calculated field to "Profit per item". 
-
-
-
 
 
 
