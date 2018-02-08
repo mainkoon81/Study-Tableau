@@ -277,7 +277,6 @@ In order to get a better idea of how things are moving over time, we might use a
 <img src="https://user-images.githubusercontent.com/31917400/33714331-78fd815c-db46-11e7-842c-9b4cec9700d7.png" />
 
 
-### Filter
 
 
 
