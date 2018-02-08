@@ -277,7 +277,7 @@ In order to get a better idea of how things are moving over time, we might use a
 <img src="https://user-images.githubusercontent.com/31917400/33714331-78fd815c-db46-11e7-842c-9b4cec9700d7.png" />
 
  - For example
-<img src="https://user-images.githubusercontent.com/31917400/36001833-b61cd136-0d1f-11e8-9913-492f63261152.jpg" />
+<img src="https://user-images.githubusercontent.com/31917400/36002067-ae94062c-0d20-11e8-8f2f-00081b48d195.jpg" />
  
 
 
