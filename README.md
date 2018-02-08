@@ -205,8 +205,8 @@ When you drag "Datetime" variable to Columns, there is a little plus symbol on t
 
 <img src="https://user-images.githubusercontent.com/31917400/33630630-f9b0e8fe-d9ff-11e7-8347-15c03b04a734.jpg" width="600" height="150" />
 
-
-
+>Q. How to control bin size ?
+<img src="https://user-images.githubusercontent.com/31917400/36004010-6030f050-0d28-11e8-824f-ca059efb29ad.jpg" />
 
 
 
