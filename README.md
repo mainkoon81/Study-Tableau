@@ -83,17 +83,20 @@ __Join:__ Drag the second sheet beside the first, we get a **join** (if both hav
  - When do we join on **multiple columns**?
 <img src="https://user-images.githubusercontent.com/31917400/35856594-67dce620-0b2e-11e8-8891-44c228241564.jpg" width="800" height="120" /> 
 
- - Join VS Blend: When joining multiple tables, due to the difference in their level of granularities, we lose some information('str'type...numeric values will be summed up).    
+ - Join VS Blend: When joining multiple tables, due to the difference in their level of granularities, we lose some information('str'type...numeric values will be summed up)...A Blend will be the solution for this.     
 <img src="https://user-images.githubusercontent.com/31917400/35856760-dba3c3da-0b2e-11e8-9f65-06b8861e12a8.jpg" width="580" height="150" /> 
 
 __Blend:__ A Blend is a smart join. In general, we prepare datasets(join, union, etc) before we work for fit in our workbooks. But a blend allows us to do this on the fly in our workbooks. It experiences the granularity one by one and takes selectively.
- - 
  - Open each sheet independently as two different connections(clicking and using 'show starting page' on the top left corner). 
- - In the workbook section for visualization, we can see some 'chain icon' on the field from the second data source.
+ - In the workbooks, we can see some 'orange chain icon' on the field from the second data source.
  - As a follow up, multiple 'Marksboxs' appear.
- - 
+ - Note: A blending is always a left joining, so the dataset that is brought for starters will become the primary !  
+<img src="https://user-images.githubusercontent.com/31917400/35950639-710a28b0-0c6f-11e8-8427-f73277b93064.jpg" /> 
 
+<img src="https://user-images.githubusercontent.com/31917400/35974181-e5c8a25c-0ccf-11e8-8e3f-c4da5fe607fc.jpg" /> 
 
+ - Blend and **Dual Axis**
+   - 
 
 
 
