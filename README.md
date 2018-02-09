@@ -66,6 +66,7 @@ __[tableau]__
  - VIII. Small Multiples & Dual Axis (to visualize data that needs to share an axis for comparison purposes)
  - IX. Groups & Sets (categorize our data within a visualization)
  - X. Table Calculations (perform comparisons of our data over time or between groups)
+ - XI. Dashboard
 
 ### I. Connecting to Data
 In the left sidebar you'll see the data sources you can connect to. For file sources, you can connect to an Excel file, a text file such as a CSV, or statistical files such as from SAS, SPSS, and R. If Tableau detects sub-tables, unique formatting, or some extraneous information, the **Data Interpreter** option becomes available. 
@@ -259,7 +260,7 @@ We can use the set in plots to encode these products that are losing money. Let'
 
 
 
-### XI. Table Calculations
+### X. Table Calculations
 Table calculations can be useful for helping us to compare the data that exists in a plot to other parts of the plot. What if we want to compare the percent of profits that went into each market to the total profit. Select the drop down associated with SUM(Profit), and select ```Quick Table Calculation... > Percent of Total```. Alternatively, it could be useful to look at compounding profit. A lot of table calculations work well for line plots. Let's take a look at an example. Add the Order Date to the Columns and Sales to the Rows. Make sure the Order Date is continuous. Drill down to the Quarter level, and select ```Quick Table Calculation... > Percent Difference```. 
 
 <img src="https://user-images.githubusercontent.com/31917400/33713970-3271b880-db45-11e7-9652-1a1349868053.png" />
@@ -271,6 +272,8 @@ In order to get a better idea of how things are moving over time, we might use a
  - For example
 <img src="https://user-images.githubusercontent.com/31917400/36002067-ae94062c-0d20-11e8-8f2f-00081b48d195.jpg" />
  
+
+### XI. Dashboard
 
 
 
