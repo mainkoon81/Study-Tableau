@@ -186,27 +186,19 @@ __[2) Calculated Fields]__ Add 'calculated fields' to a visualization on the fly
 
 There will be times when we want to look at something but there isn't a specific field for it. For instance, maybe we want to know the 'profit' per item for each 'order' record. It seems pretty simple, just divide 'profit' by 'order' for each record, then aggregate it. 'clalculated fields' let us create new fields to use in our visualizations. To create a calculated field, open the menu on a field (such as 'Profit'), then Create > Calculated Field....Fields in the editor show up in brackets, like [Profit]. We can do simple arithmetic here, like adding a constant, or multiplying the field. We can also use functions such as absolute value, sine, square root, etc. Here we want to create a new field that calculates the profit per item for each record - [Profit]/[Quantity]. We also renamed the calculated field to "Profit per item". 
 
+__[3) Parameters]__ 
 
+>Q. How to control bin size ?
+<img src="https://user-images.githubusercontent.com/31917400/36004010-6030f050-0d28-11e8-824f-ca059efb29ad.jpg" />
 
-
-
-
-
-
-
-
-
-
-
+>Q. Bin-control with 'Parameter' 
+<img src="https://user-images.githubusercontent.com/31917400/36039788-7185ef02-0dbb-11e8-8572-1b406d9895b5.jpg" />
 
 
 ### V. Hierarchies
 When you drag "Datetime" variable to Columns, there is a little plus symbol on the "Datetime" field pill. Tableau automatically makes a hierarchy of time periods from "date" and "time" data fields. As we drill down, we get more fine divisions, from year, to quarter, to month, then day. Clicking on minus sign in them, it will go back up the hierarchy. We can make some column to absorb other column as a sub-category. Select both the catgory(mom) and sub-category(child), then, in the drop down for the category(mom), create hierarchy.  
 
 <img src="https://user-images.githubusercontent.com/31917400/33630630-f9b0e8fe-d9ff-11e7-8347-15c03b04a734.jpg" width="600" height="150" />
-
->Q. How to control bin size ?
-<img src="https://user-images.githubusercontent.com/31917400/36004010-6030f050-0d28-11e8-824f-ca059efb29ad.jpg" />
 
 
 
