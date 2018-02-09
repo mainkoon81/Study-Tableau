@@ -198,18 +198,7 @@ __[3) Parameters]__
 
 ### V. Hierarchies
 When you drag "Datetime" variable to Columns, there is a little plus symbol on the "Datetime" field pill. Tableau automatically makes a hierarchy of time periods from "date" and "time" data fields. As we drill down, we get more fine divisions, from year, to quarter, to month, then day. Clicking on minus sign in them, it will go back up the hierarchy. We can make some column to absorb other column as a sub-category. Select both the catgory(mom) and sub-category(child), then, in the drop down for the category(mom), create hierarchy.  
-
 <img src="https://user-images.githubusercontent.com/31917400/33630630-f9b0e8fe-d9ff-11e7-8347-15c03b04a734.jpg" width="600" height="150" />
-
-
-
-
-
-
-
-
-
-
 
 ### VI. Marks & Filters
 __Mark card:__ Often, we’ll want to include more dimensions in our graph. We can add dimensions to the plot (increasing granularity) by dragging dimensions or measures to the Marks shelf. It has options such as color, size, and shape. 
@@ -274,7 +263,8 @@ In order to get a better idea of how things are moving over time, we might use a
  
 
 ### XI. Dashboard
-
+ - Interactivity (Use as filter) 
+<img src="https://user-images.githubusercontent.com/31917400/36048153-26d9862e-0dd6-11e8-94b0-a75a2c5a6de0.jpg" />
 
 
  
