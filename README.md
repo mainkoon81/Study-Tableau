@@ -263,9 +263,10 @@ In order to get a better idea of how things are moving over time, we might use a
  
 
 ### XI. Dashboard
- - Interactivity (Use as filter) 
-<img src="https://user-images.githubusercontent.com/31917400/36048153-26d9862e-0dd6-11e8-94b0-a75a2c5a6de0.jpg" />
+ - Interactivity (***Use as filter***) 
+<img src="https://user-images.githubusercontent.com/31917400/36048251-8224bc10-0dd6-11e8-9872-2d1bcd91fb91.jpg" />
 
+ - Analyze 
 
  
 
