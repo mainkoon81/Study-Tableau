@@ -61,6 +61,8 @@ __[Tableau Guildline]__
 
 When we use DataExtract ? (http://drawingwithnumbers.artisart.org/tde-or-live-when-to-use-tableau-data-extracts/)
 
+How to use ? (http://onlinehelp.tableau.com/current/pro/desktop/en-us/extracting_data.html)
+
  - I. Connecting to Data
  - II. Combining Data (connect data from multiple sources)
  - III. Worksheets & Dashboards
