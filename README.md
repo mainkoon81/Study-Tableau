@@ -41,6 +41,17 @@ df2 = head(df, 30)
 ggplot(df2, aes(x=col, y=col, group=sssss)) + geom_point(aes(shape=sssss, color=as.factor(df2$col_1, df$col_2, ...))
 ```
 __[Case Study]__
+1. 
+
+
+
+
+
+
+
+
+
+
 
 
 
