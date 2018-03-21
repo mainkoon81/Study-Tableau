@@ -31,6 +31,9 @@ __[What to care?]__
    - Categorical vs Categorical vs Quantitative: Side-by-Side Bar Chart, Multi-Line Charts, Stacked Bar Chart 
 <img src="https://user-images.githubusercontent.com/31917400/33563471-fba1d5b0-d90f-11e7-8ce0-61ac69a2d491.jpg" />
 
+ - Heat-map: It is a table but colors itself based on a certain set of parameters. 
+<img src="https://user-images.githubusercontent.com/31917400/37705336-9a448cbc-2cf3-11e8-9b68-a0d35d637e1d.png" width="550" height="200" /> 
+
  - Scatter Example in R 
 ```
 install.packages('ggplot2')
