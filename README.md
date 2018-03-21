@@ -34,8 +34,7 @@ __[What to care?]__
  - Heat-map: It is a table but colors itself based on a certain set of parameters. 
 <img src="https://user-images.githubusercontent.com/31917400/37705336-9a448cbc-2cf3-11e8-9b68-a0d35d637e1d.png" width="550" height="200" /> 
 
- - Scatter Example in R 
-A scatter plot is the perfect tool for comparing continuous variables because clusters will emerge that can indicate possible correlation. 
+ - Scatter Example in R: A scatter plot is the perfect tool for comparing continuous variables because clusters will emerge that can indicate possible correlation. 
 ```
 install.packages('ggplot2')
 library(ggplot2)
