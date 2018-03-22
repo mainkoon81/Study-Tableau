@@ -228,6 +228,8 @@ __Mark card:__ Often, we’ll want to include more dimensions in our graph. We c
 <img src="https://user-images.githubusercontent.com/31917400/33634227-6bf14520-da0b-11e7-9714-02808609bad5.png" width="400" height="250" />
 
  - __Detail:__ The "Detail" card allows us to bring in a field without any visual encoding. This enables us to increase granularity without adding any graphical effect. The "Label" card adds in labels for all of our markers.
+ 
+ - __Tooltip:__ Add additional context or information to your view **without taking up any precious real estate** on the worksheet. This is super important when the worksheet is on the dashboard. You can populate the tooltip with as much information as needed including dynamic fields. These fields will update when the user clicks on or hovers the mouse over a mark in the view. As a result, tooltips are very useful in building interactivity and reinforcing your story for your views. 
 
 __Mark & Filter card:__ This way we can view only the data we are interested in. 
 
