@@ -10,7 +10,7 @@ __[two components]__
  - artistic: to be eyecatching (engaging)
  - scientific: to deliver the right insights (informative)
 Summary statistics like the mean and standard deviation can be great for attempting to quickly understand aspects of a dataset, but they can also be misleading. 
-<img src="https://user-images.githubusercontent.com/31917400/33559462-bf77609c-d904-11e7-8dbb-b60ae351e93b.jpg"  />
+<img src="https://user-images.githubusercontent.com/31917400/33559462-bf77609c-d904-11e7-8dbb-b60ae351e93b.jpg" />
 
 %Anscombe's Quartet: In the 4 datasets with X,Y pairs above, they all share the same stats, but data points are very different one another. Relying on only summarry statistics can be misleading!    
 
@@ -43,6 +43,9 @@ df = read.csv(..............)
 df2 = head(df, 30)
 ggplot(df2, aes(x=col, y=col, group=sssss)) + geom_point(aes(shape=sssss, color=as.factor(df2$col_1, df$col_2, ...))
 ```
+<img src="https://user-images.githubusercontent.com/31917400/38154764-d139a2e6-346b-11e8-900f-06c270b79791.jpg" />
+
+
 __[Case Study]__
 
 1. 
