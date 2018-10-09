@@ -7,7 +7,7 @@
 > How to encode our visuals to best communicate our findings? How to design components? 
 
 __[two components]__
- - artistic: to be eyecatching (engaging)
+ - artistic: to be eyecatching (engaging).
  - scientific: to deliver the right insights (informative)
 Summary statistics like the mean and standard deviation can be great for attempting to quickly understand aspects of a dataset, but they can also be misleading. 
 <img src="https://user-images.githubusercontent.com/31917400/33559462-bf77609c-d904-11e7-8dbb-b60ae351e93b.jpg" />
