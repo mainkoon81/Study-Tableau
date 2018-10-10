@@ -16,8 +16,13 @@ Summary statistics like the mean and standard deviation can be great for attempt
 
 __[What to care?]__
  - Data type(continuous? discrete? ordinal? categorical?)
+   - Structured(tabulated)/Unstructured(none)
+   - Quantitative(categorical)/Qualitative(numerical)
+   - Discrete(count, certain validity)/Countinuous(measurement)
+   - 4 levels
+     - Norminal(category), Ordinal(category+order), interval(no 0), ratio(no negative)
  - number of columns 
- - Quantitative over time: Line Chart
+ - Quantitative over time(temporal): Line Chart
  - a couple, correlation-coefficient("strength + direction" of linear relationship): Scatter Plot
 <img src="https://user-images.githubusercontent.com/31917400/33561533-cf9a5528-d90a-11e7-8f8d-4361b221a62f.jpg" width="350" height="130" />
 
