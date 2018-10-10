@@ -15,7 +15,7 @@ Summary statistics like the mean and standard deviation can be great for attempt
 %Anscombe's Quartet: In the 4 datasets with X,Y pairs above, they all share the same stats, but data points are very different one another. Relying on only summarry statistics can be misleading!    
 
 __[What to care?]__
- - Data type(continuous? discrete? ordinal? categorical?)
+ - Data types
    - Structured(tabulated)/Unstructured(none)
    - Quantitative(categorical)/Qualitative(numerical)
    - Discrete(count, certain validity)/Countinuous(measurement)
